@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuraLinkDemoProject", "CuraLinkDemoProject\CuraLinkDemoProject.csproj", "{C0B57AC3-12BC-4848-B3A2-5E329D810432}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0B57AC3-12BC-4848-B3A2-5E329D810432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B57AC3-12BC-4848-B3A2-5E329D810432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B57AC3-12BC-4848-B3A2-5E329D810432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B57AC3-12BC-4848-B3A2-5E329D810432}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01A8A29B-F3EB-4400-845C-659885995835}
+	EndGlobalSection
+EndGlobal

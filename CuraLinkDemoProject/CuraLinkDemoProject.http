@@ -1,0 +1,6 @@
+@CuraLinkDemoProject_HostAddress = http://localhost:5043
+
+GET {{CuraLinkDemoProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
