@@ -1,55 +1,46 @@
 ﻿using CuraLinkDemoProject.CuraLinkDemo.Application.Interfaces;
 using CuraLinkDemoProject.CuraLinkDemo.Application.Services;
 using CuraLinkDemoProject.CuraLinkDemo.Infrastructure.Data;
-using CuraLinkDemoProject.CuraLinkDemo.Infrastructure.ExternalServices;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ---------- Настройка сервисов ----------
-
-// Подключение к базе данных (SQL Server)
-/*builder.Services.AddDbContext<CuraLinkDbContext>(options =>
+// --------------------
+// 1. DB Verbindung
+// --------------------
+builder.Services.AddDbContext<CuraLinkDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Подключаем контроллеры (Web API)
-builder.Services.AddControllers();
+// --------------------
+// 2. Service Regisration
+// --------------------
+builder.Services.AddScoped<IResidentService, ResidentService>();
+builder.Services.AddScoped<IAppointmentService, AppointmentService>();
+builder.Services.AddScoped<IStaffService, StaffService>();
 
-// Swagger для теста API
+// --------------------
+// 3. Controllers + Swagger
+// --------------------
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Подключение CORS (чтобы фронтенд мог дергать API)
+// --------------------
+// 4. CORS — Erlaubnis fürs Front zum kommunizieren mit API
+// --------------------
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowFrontend",
-        policy =>
-        {
-            policy.AllowAnyOrigin()
-                  .AllowAnyHeader()
-                  .AllowAnyMethod();
-        });
+    options.AddPolicy("AllowAll", policy =>
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader());
 });
 
-// Регистрация сервисов приложения (DI)
-builder.Services.AddScoped<IResidentService, ResidentService>();
-builder.Services.AddScoped<IReportService, ReportService>();
-builder.Services.AddScoped<IMedicationService, MedicationService>();
-builder.Services.AddScoped<IVitalSignsService, VitalSignsService>();
-builder.Services.AddScoped<IPainObservationService, PainObservationService>();
-builder.Services.AddScoped<IAppointmentService, AppointmentService>();
-
-// LLM-сервис
-builder.Services.AddScoped<ILLMService, LLMService>();
-
-// HTTP-клиент для вызова внешнего API LLM (например, OpenAI)
-builder.Services.AddHttpClient<OpenAILLMClient>();
-*/
 var app = builder.Build();
 
-// ---------- Middleware pipeline ----------
-
-// Swagger только в Dev-режиме
+// --------------------
+// 5. Einstellung des middleware
+// --------------------
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -58,7 +49,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseCors("AllowFrontend");
+app.UseCors("AllowAll");
 
 app.UseAuthorization();
 

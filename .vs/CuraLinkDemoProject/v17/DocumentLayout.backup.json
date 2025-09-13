@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\idsai\\source\\repos\\CuraLinkDemoProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\source\\repos\\curalinkdemoproject\\curalinkdemoproject\\curalinkdemo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\source\\repos\\curalinkdemoproject\\curalinkdemoproject\\curalinkdemoproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemoproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -23,19 +19,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\source\\repos\\CuraLinkDemoProject\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Program.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\idsai\\source\\repos\\CuraLinkDemoProject\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Program.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T20:42:00.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "CuraLinkDemoProject.csproj",
               "DocumentMoniker": "C:\\Users\\idsai\\source\\repos\\CuraLinkDemoProject\\CuraLinkDemoProject\\CuraLinkDemoProject.csproj",
               "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemoProject.csproj",
@@ -43,7 +26,8 @@
               "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemoProject.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-12T19:49:49.726Z"
+              "WhenOpened": "2025-09-12T19:49:49.726Z",
+              "EditorCaption": ""
             }
           ]
         }

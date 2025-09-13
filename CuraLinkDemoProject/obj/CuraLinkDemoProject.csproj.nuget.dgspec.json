@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\idsai\\source\\repos\\CuraLinkDemoProject\\CuraLinkDemoProject\\CuraLinkDemoProject.csproj": {}
+    "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemoProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\idsai\\source\\repos\\CuraLinkDemoProject\\CuraLinkDemoProject\\CuraLinkDemoProject.csproj": {
+    "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemoProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\idsai\\source\\repos\\CuraLinkDemoProject\\CuraLinkDemoProject\\CuraLinkDemoProject.csproj",
+        "projectUniqueName": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemoProject.csproj",
         "projectName": "CuraLinkDemoProject",
-        "projectPath": "C:\\Users\\idsai\\source\\repos\\CuraLinkDemoProject\\CuraLinkDemoProject\\CuraLinkDemoProject.csproj",
+        "projectPath": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemoProject.csproj",
         "packagesPath": "C:\\Users\\idsai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\idsai\\source\\repos\\CuraLinkDemoProject\\CuraLinkDemoProject\\obj\\",
+        "outputPath": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,6 +52,10 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.9, )"
             },

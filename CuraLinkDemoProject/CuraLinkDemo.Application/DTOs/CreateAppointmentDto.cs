@@ -2,8 +2,9 @@
 {
     public class CreateAppointmentDto
     {
-        public int Id { get; set; }
-        public string ResidentName { get; set; }   // вместо ResidentId
+        public int ResidentId { get; set; }
+        public string ResidentName { get; set; }
+        public int StaffId { get; set; }
         public DateTime DateTime { get; set; }
         public string Type { get; set; }
         public string Notes { get; set; }

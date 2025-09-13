@@ -5,6 +5,8 @@
         public int AppointmentId { get; set; }
         public int ResidentId { get; set; }
         public Resident Resident { get; set; }
+        public int StaffId { get; set; }
+        public Staff Staff { get; set; }
 
         public DateTime DateTime { get; set; }
         public string Type { get; set; }   // Checkup, Therapy, FamilyVisit

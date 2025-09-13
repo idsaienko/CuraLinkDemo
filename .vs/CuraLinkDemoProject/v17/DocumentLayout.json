@@ -1,10 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\idsai\\source\\repos\\CuraLinkDemoProject\\",
+  "WorkspaceRootPath": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\source\\repos\\curalinkdemoproject\\curalinkdemoproject\\curalinkdemoproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\onedrive\\documents\\github\\curalinkdemo\\curalinkdemoproject\\curalinkdemoproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemoproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\onedrive\\documents\\github\\curalinkdemo\\curalinkdemoproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\onedrive\\documents\\github\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\onedrive\\documents\\github\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.application\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.application\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\onedrive\\documents\\github\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.api\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.api\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\onedrive\\documents\\github\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.application\\dtos\\createstaffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.application\\dtos\\createstaffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\onedrive\\documents\\github\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.application\\dtos\\staffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.application\\dtos\\staffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\onedrive\\documents\\github\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.application\\interfaces\\istaffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.application\\interfaces\\istaffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\appsettings.json",
+              "RelativeDocumentMoniker": "CuraLinkDemoProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\appsettings.json",
+              "RelativeToolTip": "CuraLinkDemoProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-13T22:56:48.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Program.cs",
+              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Program.cs",
+              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T22:47:42.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StaffService.cs",
+              "DocumentMoniker": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\StaffService.cs",
+              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\StaffService.cs",
+              "ToolTip": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\StaffService.cs",
+              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\StaffService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T22:43:56.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateStaffDto.cs",
+              "DocumentMoniker": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\CreateStaffDto.cs",
+              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\CreateStaffDto.cs",
+              "ToolTip": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\CreateStaffDto.cs",
+              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\CreateStaffDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T22:40:07.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StaffDto.cs",
+              "DocumentMoniker": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\StaffDto.cs",
+              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\StaffDto.cs",
+              "ToolTip": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\StaffDto.cs",
+              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\StaffDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T22:38:49.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\StaffController.cs",
+              "ToolTip": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\StaffController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T22:34:36.715Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CuraLinkDemoProject.csproj",
-              "DocumentMoniker": "C:\\Users\\idsai\\source\\repos\\CuraLinkDemoProject\\CuraLinkDemoProject\\CuraLinkDemoProject.csproj",
+              "DocumentMoniker": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemoProject.csproj",
               "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemoProject.csproj",
-              "ToolTip": "C:\\Users\\idsai\\source\\repos\\CuraLinkDemoProject\\CuraLinkDemoProject\\CuraLinkDemoProject.csproj",
+              "ToolTip": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemoProject.csproj",
               "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemoProject.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-09-12T19:49:49.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IStaffService.cs",
+              "DocumentMoniker": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Interfaces\\IStaffService.cs",
+              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Interfaces\\IStaffService.cs",
+              "ToolTip": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Interfaces\\IStaffService.cs",
+              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Interfaces\\IStaffService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T22:36:53.396Z",
               "EditorCaption": ""
             }
           ]

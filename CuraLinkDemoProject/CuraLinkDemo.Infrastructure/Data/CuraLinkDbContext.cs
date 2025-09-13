@@ -14,5 +14,23 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Infrastructure.Data
         public DbSet<PainObservation> PainObservations { get; set; }
         public DbSet<Appointment> Appointments { get; set; }
         public DbSet<Staff> Staff { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            //  Resident → Appointments (1:N)
+            modelBuilder.Entity<Appointment>()
+                .HasOne(a => a.Resident)
+                .WithMany(r => r.Appointments)
+                .HasForeignKey(a => a.ResidentId);
+
+            // Staff → Appointment (1:N)
+            modelBuilder.Entity<Appointment>()
+                .HasOne(a => a.Staff)
+                .WithMany(s => s.Appointments)
+                .HasForeignKey(a => a.StaffId);
+
+            base.OnModelCreating(modelBuilder);
+        }
+
     }
 }
