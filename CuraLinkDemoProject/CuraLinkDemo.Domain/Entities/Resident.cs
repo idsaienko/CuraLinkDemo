@@ -11,9 +11,9 @@
 
         // 🔹 Navigation Eigenschaften (Verbindungen mit anderen Tabellen)
         public ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
-        public ICollection<Report> Reports { get; set; } = new List<Report>();
-        public ICollection<Medication> Medications { get; set; } = new List<Medication>();
-        public ICollection<VitalSign> VitalSigns { get; set; } = new List<VitalSign>();
-        public ICollection<PainObservation> PainObservations { get; set; } = new List<PainObservation>();
+        //public ICollection<Report> Reports { get; set; } = new List<Report>();
+        //public ICollection<Medication> Medications { get; set; } = new List<Medication>();
+        //public ICollection<VitalSign> VitalSigns { get; set; } = new List<VitalSign>();
+        //public ICollection<PainObservation> PainObservations { get; set; } = new List<PainObservation>();
     }
 }

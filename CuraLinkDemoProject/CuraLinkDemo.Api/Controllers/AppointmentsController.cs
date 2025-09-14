@@ -34,17 +34,6 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Api.Controllers
             return Ok(appointment);
         }
 
-        // Aufgabe erstellen
-        [HttpPost]
-        public async Task<ActionResult<AppointmentDto>> Create([FromBody] CreateAppointmentDto dto)
-        {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
-
-            var created = await _appointmentService.CreateAsync(dto);
-            return CreatedAtAction(nameof(GetById), new { id = created.Id }, created);
-        }
-
         // Aufgabe aktualisieren
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] CreateAppointmentDto dto)
@@ -69,7 +58,7 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Api.Controllers
         
         // POST: api/appointments
         [HttpPost]
-        public async Task<ActionResult<AppointmentDto>> Create([FromBody] CreateAppointmentDto dto)
+        public async Task<ActionResult<AppointmentDto>> CreateAsync([FromBody] CreateAppointmentDto dto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);

@@ -9,6 +9,6 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Domain.Entities
         public Role Role { get; set; }
         public string PhoneNumber { get; set; }
 
-        public ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();ы
+        public ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace CuraLinkDemoProject.CuraLinkDemo.Api.Controllers
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace CuraLinkDemoProject.CuraLinkDemo.Api.Controllers
 {
     public class MedicationsController
     {

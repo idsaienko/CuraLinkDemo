@@ -1,6 +1,7 @@
 ﻿using CuraLinkDemoProject.CuraLinkDemo.Application.Interfaces;
 using CuraLinkDemoProject.CuraLinkDemo.Application.Services;
 using CuraLinkDemoProject.CuraLinkDemo.Infrastructure.Data;
+using CuraLinkDemoProject.CuraLinkDemo.Infrastructure.Middleware;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -52,6 +53,8 @@ app.UseHttpsRedirection();
 app.UseCors("AllowAll");
 
 app.UseAuthorization();
+
+app.UseMiddleware<ApiKeyMiddleware>();
 
 app.MapControllers();
 

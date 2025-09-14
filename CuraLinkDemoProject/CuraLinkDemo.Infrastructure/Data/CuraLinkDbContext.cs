@@ -7,6 +7,7 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Infrastructure.Data
     {
         public CuraLinkDbContext(DbContextOptions<CuraLinkDbContext> options) : base(options) { }
 
+        public DbSet<ApiKey> ApiKeys { get; set; }
         public DbSet<Resident> Residents { get; set; }
         public DbSet<Report> Reports { get; set; }
         public DbSet<Medication> Medications { get; set; }
