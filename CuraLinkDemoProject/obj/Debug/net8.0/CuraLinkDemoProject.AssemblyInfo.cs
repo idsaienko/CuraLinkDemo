@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CuraLinkDemoProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7145bc8817e0f362f7adb7daa6791ea3678a66b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94f81cdcbbca45da338d0e44a2672c9bcaeee047")]
 [assembly: System.Reflection.AssemblyProductAttribute("CuraLinkDemoProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CuraLinkDemoProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

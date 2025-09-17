@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuraLinkDemoProject", "CuraLinkDemoProject\CuraLinkDemoProject.csproj", "{C0B57AC3-12BC-4848-B3A2-5E329D810432}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "curalinkfront", "CuraLinkFront\curalinkfront.esproj", "{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,12 @@ Global
 		{C0B57AC3-12BC-4848-B3A2-5E329D810432}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0B57AC3-12BC-4848-B3A2-5E329D810432}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0B57AC3-12BC-4848-B3A2-5E329D810432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

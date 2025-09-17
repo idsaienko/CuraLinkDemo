@@ -1,4 +1,5 @@
-﻿using CuraLinkDemoProject.CuraLinkDemo.Domain.Entities;
+﻿using CuraLinkDemoProject.CuraLinkDemo.Api.Models;
+using CuraLinkDemoProject.CuraLinkDemo.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace CuraLinkDemoProject.CuraLinkDemo.Infrastructure.Data
@@ -15,6 +16,9 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Infrastructure.Data
         public DbSet<PainObservation> PainObservations { get; set; }
         public DbSet<Appointment> Appointments { get; set; }
         public DbSet<Staff> Staff { get; set; }
+        public DbSet<ResidentMovement> ResidentMovements { get; set; }
+        public DbSet<MealSchedule> MealSchedules { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
