@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "peuiu3FM44A=",
+  "dgSpecHash": "w3o0LRIrOac=",
   "success": true,
-  "projectFilePath": "C:\\Users\\idsai\\OneDrive\\Documents\\GitHub\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemoProject.csproj",
+  "projectFilePath": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemoProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\idsai\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\idsai\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
