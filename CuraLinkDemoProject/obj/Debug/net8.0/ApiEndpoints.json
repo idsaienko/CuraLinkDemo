@@ -135,6 +135,240 @@
     ]
   },
   {
+    "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.LLMController",
+    "Method": "ProcessReport",
+    "RelativePath": "api/LLM/report",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "CuraLinkDemoProject.CuraLinkDemo.Application.DTOs.ReportDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.MealScheduleController",
+    "Method": "Create",
+    "RelativePath": "api/MealSchedule",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "CuraLinkDemoProject.CuraLinkDemo.Application.DTOs.MealScheduleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.MealScheduleController",
+    "Method": "Update",
+    "RelativePath": "api/MealSchedule/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "CuraLinkDemoProject.CuraLinkDemo.Application.DTOs.MealScheduleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.MealScheduleController",
+    "Method": "Delete",
+    "RelativePath": "api/MealSchedule/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.MealScheduleController",
+    "Method": "GetByResident",
+    "RelativePath": "api/MealSchedule/resident/{residentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "residentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.MedicationsController",
+    "Method": "Create",
+    "RelativePath": "api/Medications",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medication",
+        "Type": "CuraLinkDemoProject.CuraLinkDemo.Domain.Entities.Medication",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.MedicationsController",
+    "Method": "Delete",
+    "RelativePath": "api/Medications/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.MedicationsController",
+    "Method": "GetByResident",
+    "RelativePath": "api/Medications/resident/{residentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "residentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.PainObservationController",
+    "Method": "Create",
+    "RelativePath": "api/PainObservation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "CuraLinkDemoProject.CuraLinkDemo.Application.DTOs.PainObservationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.PainObservationController",
+    "Method": "Update",
+    "RelativePath": "api/PainObservation/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "CuraLinkDemoProject.CuraLinkDemo.Application.DTOs.PainObservationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.PainObservationController",
+    "Method": "Delete",
+    "RelativePath": "api/PainObservation/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.PainObservationController",
+    "Method": "GetByResident",
+    "RelativePath": "api/PainObservation/resident/{residentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "residentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.ReportsController",
+    "Method": "CreateReport",
+    "RelativePath": "api/Reports",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "CuraLinkDemoProject.CuraLinkDemo.Application.DTOs.ReportDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.ResidentMovementsController",
+    "Method": "GetMovements",
+    "RelativePath": "api/ResidentMovements/{residentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "residentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.ResidentsController",
     "Method": "GetAll",
     "RelativePath": "api/Residents",

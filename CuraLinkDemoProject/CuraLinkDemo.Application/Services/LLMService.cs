@@ -1,7 +1,12 @@
-﻿using CuraLinkDemoProject.CuraLinkDemo.Application.DTOs;
+﻿using CuraLinkDemoProject.CuraLinkDemo.Api.Controllers;
+using CuraLinkDemoProject.CuraLinkDemo.Api.Models;
+using CuraLinkDemoProject.CuraLinkDemo.Application.DTOs;
 using CuraLinkDemoProject.CuraLinkDemo.Application.Interfaces;
 using CuraLinkDemoProject.CuraLinkDemo.Domain.Entities;
+using System.Net.Http.Headers;
+using System.Net.Http.Json;
 using System.Text.Json;
+using static System.Net.WebRequestMethods;
 
 namespace CuraLinkDemoProject.CuraLinkDemo.Application.Services
 {
@@ -10,10 +15,51 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Application.Services
         private readonly HttpClient _httpClient;
         private readonly IConfiguration _config;
 
-        public LLMService(HttpClient httpClient, IConfiguration config)
+        public LLMService(IHttpClientFactory httpClientFactory, IConfiguration config)
         {
-            _httpClient = httpClient;
+            _httpClient = httpClientFactory.CreateClient("OpenAI"); ;
             _config = config;
+        }
+
+        public async Task<AnalysisResult> AnalyzeReportAsync(string reportText)
+        {
+            var response = await _httpClient.PostAsJsonAsync("chat/completions", new
+            {
+                model = "gpt-4o-mini",
+                response_format = new { type = "json_schema" },
+                messages = new[]
+                {
+                    new { role = "system", content = "Du bist medizinischer Assistent. Gib JSON mit den Schlüsseln medications, painObservations, mealSchedules, ausscheidungen und movements zurück." },
+                    new { role = "user", content = reportText }
+                }
+            });
+
+            var json = await response.Content.ReadAsStringAsync();
+
+            var doc = JsonDocument.Parse(json);
+            var content = doc.RootElement
+                .GetProperty("choices")[0]
+                .GetProperty("message")
+                .GetProperty("content")
+                .GetString();
+
+            return JsonSerializer.Deserialize<AnalysisResult>(content)!;
+        }
+        public async Task<string> TranscribeAudioAsync(Stream audioStream)
+        {
+            using var content = new MultipartFormDataContent();
+
+            var fileContent = new StreamContent(audioStream);
+            fileContent.Headers.ContentType = new MediaTypeHeaderValue("audio/webm");
+            content.Add(fileContent, "file", "report.webm");
+
+            content.Add(new StringContent("whisper-1"), "model");
+
+            var response = await _httpClient.PostAsync("audio/transcriptions", content);
+            response.EnsureSuccessStatusCode();
+
+            var result = await response.Content.ReadFromJsonAsync<WhisperResponse>();
+            return result?.Text ?? string.Empty;
         }
 
         public async Task<ReportAnalysisResult> ExtractReportDataAsync(string reportText)
@@ -42,5 +88,18 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Application.Services
 
             return JsonSerializer.Deserialize<ReportAnalysisResult>(json)!;
         }
+    }
+
+    public class WhisperResponse
+    {
+        public string Text { get; set; }
+    }
+
+    public class AnalysisResult
+    {
+        public List<Medication>? Medications { get; set; }
+        public List<PainObservation>? PainObservations { get; set; }
+        public List<MealSchedule>? MealSchedules { get; set; }
+        public List<ResidentMovement>? Movements { get; set; }
     }
 }

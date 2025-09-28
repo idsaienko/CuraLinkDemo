@@ -18,6 +18,8 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Infrastructure.Data
         public DbSet<Staff> Staff { get; set; }
         public DbSet<ResidentMovement> ResidentMovements { get; set; }
         public DbSet<MealSchedule> MealSchedules { get; set; }
+        public DbSet<Ausscheidung> Ausscheidungen { get; set; }
+
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -33,8 +35,6 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Infrastructure.Data
                 .HasOne(a => a.Staff)
                 .WithMany(s => s.Appointments)
                 .HasForeignKey(a => a.StaffId);
-
-            base.OnModelCreating(modelBuilder);
         }
 
     }

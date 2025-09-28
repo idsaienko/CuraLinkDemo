@@ -1,25 +1,31 @@
-﻿using CuraLinkDemoProject.CuraLinkDemo.Application.DTOs;
-using CuraLinkDemoProject.CuraLinkDemo.Application.Interfaces;
+﻿using CuraLinkDemoProject.CuraLinkDemo.Application.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CuraLinkDemoProject.CuraLinkDemo.Api.Controllers
+[ApiController]
+[Route("api/[controller]")]
+public class ReportsController : ControllerBase
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class ReportsController : ControllerBase
+    private readonly LLMService _llmService;
+
+    public ReportsController(LLMService llmService)
     {
-        private readonly IReportService _reportService;
+        _llmService = llmService;
+    }
 
-        public ReportsController(IReportService reportService)
-        {
-            _reportService = reportService;
-        }
+    // POST /api/reports/text
+    [HttpPost("text")]
+    public async Task<IActionResult> PostTextReport([FromBody] string report)
+    {
+        var result = await _llmService.AnalyzeReportAsync(report);
+        return Ok(result);
+    }
 
-        [HttpPost]
-        public async Task<IActionResult> CreateReport([FromBody] ReportDto dto)
-        {
-            var result = await _reportService.ProcessReportAsync(dto);
-            return Ok(result);
-        }
+    // POST /api/reports/voice
+    [HttpPost("voice")]
+    public async Task<IActionResult> PostVoiceReport(IFormFile file)
+    {
+        using var stream = file.OpenReadStream();
+        var result = await _llmService.TranscribeAudioAsync(stream);
+        return Ok(result);
     }
 }
