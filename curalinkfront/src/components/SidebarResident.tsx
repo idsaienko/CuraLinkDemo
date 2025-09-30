@@ -1,35 +1,26 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 
 export default function SidebarResident() {
-    const links = [
-        { name: "Übersicht", path: "/" },
-        { name: "Pflegeberichte", path: "/reports" },
-        { name: "Medikamente", path: "/medications" },
-        { name: "Vitalwerte", path: "/vitals" },
-        { name: "Dokumente", path: "/documents" },
-        { name: "Schmerzen & Beobachtung", path: "/pain" },
-        { name: "Termine", path: "/appointments" },
-        { name: "Ausscheidung", path: "/auscheidung" },
-    ];
+    const { id } = useParams();
+
+    const linkClass = ({ isActive }: { isActive: boolean }) =>
+        `block px-4 py-2 rounded hover:bg-gray-200 ${isActive ? "bg-gray-300 font-bold" : ""
+        }`;
 
     return (
-        <aside className="w-64 bg-gray-50 border-r p-4">
-            <nav className="flex flex-col gap-3">
-                {links.map((link) => (
-                    <NavLink
-                        key={link.path}
-                        to={link.path}
-                        className={({ isActive }) =>
-                            `block px-3 py-2 rounded-lg ${isActive
-                                ? "bg-blue-100 text-blue-700 font-semibold"
-                                : "text-gray-700 hover:bg-gray-100"
-                            }`
-                        }
-                    >
-                        {link.name}
-                    </NavLink>
-                ))}
-            </nav>
-        </aside>
+        <nav className="w-56 border-r h-full p-4">
+            <ul className="space-y-2">
+                <li><NavLink to={`/resident/${id}/overview`} className={linkClass}>Uebersicht</NavLink></li>
+                <li><NavLink to={`/resident/${id}/reports`} className={linkClass}>Pflegeberichte</NavLink></li>
+                <li><NavLink to={`/resident/${id}/medications`} className={linkClass}>Medikamente</NavLink></li>
+                <li><NavLink to={`/resident/${id}/vitals`} className={linkClass}>Vitalwerte</NavLink></li>
+                <li><NavLink to={`/resident/${id}/pain`} className={linkClass}>Schmerzen & Beobachtung</NavLink></li>
+                <li><NavLink to={`/resident/${id}/nutrition`} className={linkClass}>Ernaehrung</NavLink></li>
+                <li><NavLink to={`/resident/${id}/movement`} className={linkClass}>Mobilitaet</NavLink></li>
+                <li><NavLink to={`/resident/${id}/excretion`} className={linkClass}>Ausscheidung</NavLink></li>
+                <li><NavLink to={`/resident/${id}/documents`} className={linkClass}>Dokumente</NavLink></li>
+                <li><NavLink to={`/resident/${id}/appointments`} className={linkClass}>Termine</NavLink></li>
+            </ul>
+        </nav>
     );
 }

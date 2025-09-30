@@ -29,7 +29,7 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Application.Services
                 response_format = new { type = "json_schema" },
                 messages = new[]
                 {
-                    new { role = "system", content = "Du bist medizinischer Assistent. Gib JSON mit den Schlüsseln medications, painObservations, mealSchedules, ausscheidungen und movements zurück." },
+                    new { role = "system", content = "Du bist medizinischer Assistant. Gibst du JSON immer wie folgt zurück:\r\n{\r\n  \"medications\": [...],\r\n  \"painObservations\": [...],\r\n  \"mealSchedules\": [...],\r\n  \"movements\": [\r\n    {\r\n      \"room\": \"string\",\r\n      \"object\": \"string\",\r\n      \"angle\": number,\r\n      \"movementTime\": \"yyyy-MM-ddTHH:mm:ss\",\r\n      \"notes\": \"string\"\r\n    }\r\n,\r\n  \"ausscheidungen\": [\r\n    {\r\n      \"abstand\": \"string\",\r\n      \"menge\": \"string\",\r\n      \"Konsistenz\": string,\r\n      \"time\": \"yyyy-MM-ddTHH:mm:ss\",\r\n      \"residentId\": \"number\",\r\n      \"staffId\": \"number\",\r\n   }\r\n  ]\r\n}."},
                     new { role = "user", content = reportText }
                 }
             });
@@ -74,7 +74,7 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Application.Services
                 model = "gpt-4o-mini",
                 messages = new[]
                 {
-                new { role = "system", content = "Du bist Arzthelfer/in. Gibst du JSON immer wie folgt zurück:\r\n{\r\n  \"medications\": [...],\r\n  \"painObservations\": [...],\r\n  \"mealSchedules\": [...],\r\n  \"movements\": [\r\n    {\r\n      \"room\": \"string\",\r\n      \"object\": \"string\",\r\n      \"angle\": number,\r\n      \"movementTime\": \"yyyy-MM-ddTHH:mm:ss\",\r\n      \"notes\": \"string\"\r\n    }\r\n  ]\r\n}." },
+                new { role = "system", content = "Du bist medizinischer Assistant. Gibst du JSON immer wie folgt zurück:\r\n{\r\n  \"medications\": [...],\r\n  \"painObservations\": [...],\r\n  \"mealSchedules\": [...],\r\n  \"movements\": [\r\n    {\r\n      \"room\": \"string\",\r\n      \"object\": \"string\",\r\n      \"angle\": number,\r\n      \"movementTime\": \"yyyy-MM-ddTHH:mm:ss\",\r\n      \"notes\": \"string\"\r\n    }\r\n,\r\n  \"ausscheidungen\": [\r\n    {\r\n      \"abstand\": \"string\",\r\n      \"menge\": \"string\",\r\n      \"Konsistenz\": string,\r\n      \"time\": \"yyyy-MM-ddTHH:mm:ss\",\r\n      \"residentId\": \"number\",\r\n      \"staffId\": \"number\",\r\n   }\r\n  ]\r\n}." },
                 new { role = "user", content = reportText }
             }
             };

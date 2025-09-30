@@ -29,8 +29,8 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Api.Controllers
                     ResidentId = m.ResidentId,
                     MealType = m.MealType,
                     MealTime = m.MealTime,
-                    DietaryNotes = m.DietaryNotes,
-                    Menu = m.Menu
+                    Comments = m.Comments,
+                    MealName = m.MealName
                 })
                 .ToListAsync();
 
@@ -45,8 +45,8 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Api.Controllers
                 ResidentId = dto.ResidentId,
                 MealType = dto.MealType,
                 MealTime = dto.MealTime,
-                DietaryNotes = dto.DietaryNotes,
-                Menu = dto.Menu
+                Comments = dto.Comments,
+                MealName = dto.MealName
             };
 
             _context.MealSchedules.Add(meal);
@@ -66,8 +66,8 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Api.Controllers
 
             meal.MealType = dto.MealType;
             meal.MealTime = dto.MealTime;
-            meal.DietaryNotes = dto.DietaryNotes;
-            meal.Menu = dto.Menu;
+            meal.Comments = dto.Comments;
+            meal.MealName = dto.MealName;
 
             await _context.SaveChangesAsync();
             return Ok(dto);

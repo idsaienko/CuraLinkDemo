@@ -8,6 +8,7 @@
         public int CareLevel { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string Notes { get; set; }
+        public string PhotoUrl { get; set; }
     }
 
     public class CreateResidentDto
@@ -17,6 +18,7 @@
         public int CareLevel { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string Notes { get; set; }
+        public string PhotoUrl { get; set; }
     }
     public class ResidentWithAppointmentsDto
     {
@@ -26,6 +28,7 @@
         public int CareLevel { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string Notes { get; set; }
+        public string PhotoUrl { get; set; }
 
         public List<AppointmentDto> Appointments { get; set; } = new();
     }

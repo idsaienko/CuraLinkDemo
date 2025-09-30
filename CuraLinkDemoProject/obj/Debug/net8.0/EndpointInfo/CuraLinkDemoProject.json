@@ -239,6 +239,60 @@
         }
       }
     },
+    "/api/Ausscheidung": {
+      "post": {
+        "tags": [
+          "Ausscheidung"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AusscheidungDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AusscheidungDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AusscheidungDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ausscheidung/{residentId}": {
+      "get": {
+        "tags": [
+          "Ausscheidung"
+        ],
+        "parameters": [
+          {
+            "name": "residentId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/LLM/report": {
       "post": {
         "tags": [
@@ -581,7 +635,7 @@
         }
       }
     },
-    "/api/Reports": {
+    "/api/Reports/text": {
       "post": {
         "tags": [
           "Reports"
@@ -590,17 +644,49 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ReportDto"
+                "type": "string"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/ReportDto"
+                "type": "string"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/ReportDto"
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Reports/voice": {
+      "post": {
+        "tags": [
+          "Reports"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "file": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -1118,6 +1204,76 @@
         },
         "additionalProperties": false
       },
+      "Ausscheidung": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "residentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "resident": {
+            "$ref": "#/components/schemas/Resident"
+          },
+          "staffId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "staff": {
+            "$ref": "#/components/schemas/Staff"
+          },
+          "time": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "abstand": {
+            "type": "string",
+            "nullable": true
+          },
+          "menge": {
+            "type": "string",
+            "nullable": true
+          },
+          "konsistenz": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AusscheidungDto": {
+        "type": "object",
+        "properties": {
+          "residentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "staffId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "time": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "abstand": {
+            "type": "string",
+            "nullable": true
+          },
+          "menge": {
+            "type": "string",
+            "nullable": true
+          },
+          "konsistenz": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "CreateAppointmentDto": {
         "type": "object",
         "properties": {
@@ -1170,6 +1326,10 @@
           "notes": {
             "type": "string",
             "nullable": true
+          },
+          "photoUrl": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1210,11 +1370,11 @@
             "type": "string",
             "format": "date-time"
           },
-          "dietaryNotes": {
+          "comments": {
             "type": "string",
             "nullable": true
           },
-          "menu": {
+          "mealName": {
             "type": "string",
             "nullable": true
           }
@@ -1333,10 +1493,32 @@
             "type": "string",
             "nullable": true
           },
+          "photoUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
           "appointments": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Appointment"
+            },
+            "nullable": true
+          },
+          "residentMovements": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ResidentMovement"
+            },
+            "nullable": true
+          },
+          "ausscheidungen": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Ausscheidung"
             },
             "nullable": true
           }
@@ -1363,6 +1545,55 @@
             "format": "int32"
           },
           "dateOfBirth": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "notes": {
+            "type": "string",
+            "nullable": true
+          },
+          "photoUrl": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ResidentMovement": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "residentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "resident": {
+            "$ref": "#/components/schemas/Resident"
+          },
+          "staffId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "staff": {
+            "$ref": "#/components/schemas/Staff"
+          },
+          "room": {
+            "type": "string",
+            "nullable": true
+          },
+          "object": {
+            "type": "string",
+            "nullable": true
+          },
+          "angle": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "movementTime": {
             "type": "string",
             "format": "date-time"
           },
@@ -1397,6 +1628,10 @@
             "format": "date-time"
           },
           "notes": {
+            "type": "string",
+            "nullable": true
+          },
+          "photoUrl": {
             "type": "string",
             "nullable": true
           },
@@ -1441,6 +1676,13 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Appointment"
+            },
+            "nullable": true
+          },
+          "residentMovements": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ResidentMovement"
             },
             "nullable": true
           }

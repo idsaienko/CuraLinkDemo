@@ -1,11 +1,17 @@
 import { Search } from "lucide-react";
+import { useLocation, useNavigate } from "react-router-dom";
 
 type HeaderProps = {
     showNewEntry?: boolean;
     staff?: { name: string; photo: string };
 };
 
-export default function Header({ showNewEntry, staff }: HeaderProps) {
+
+export default function Header({ staff }: HeaderProps) {
+    const location = useLocation();
+    const navigate = useNavigate();
+    const isResidentPage = location.pathname.startsWith("/resident/");
+    const isStafftPage = location.pathname.startsWith("/staff/");
     return (
         <header className="w-full bg-white shadow flex items-center justify-between px-6 py-3"
             style={{
@@ -40,23 +46,27 @@ export default function Header({ showNewEntry, staff }: HeaderProps) {
                 </div>
             </div>
 
-            {showNewEntry && (
-                <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700"
-                    style={{ color:"#008E56"}}
+            {isResidentPage && (
+                <button
+                    onClick={() => navigate("/staff/dashboard")}
+                    className="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"
+                    style={{ color:"#008E56"} }
                 >
                     + Neuer Eintrag
                 </button>
             )}
-            {staff && (
+            {isStafftPage && (
                 <div className="flex items-center gap-2"
-                    style={{}}>
-                    <span className="font-medium" defaultValue="Peter M.">{staff.name}</span>
+                    style={{
+                        display: "flex"
+                    }}>
                     <img
-                        src={staff.photo}
+                        src={staff?.photo}
                         alt="staff"
                         className="w-10 h-10 rounded-full object-cover"
-                        style={{width: "47px", height:"47px"}}
+                        style={{ width: "47px", height: "47px" }}
                     />
+                    <span className="font-medium" defaultValue="Peter M.">{staff?.name}</span>
                 </div>
             )}
         </header>

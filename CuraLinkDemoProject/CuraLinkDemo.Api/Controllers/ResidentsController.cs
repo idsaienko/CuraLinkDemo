@@ -1,5 +1,6 @@
 ﻿using CuraLinkDemoProject.CuraLinkDemo.Application.DTOs;
 using CuraLinkDemoProject.CuraLinkDemo.Application.Interfaces;
+using CuraLinkDemoProject.CuraLinkDemo.Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CuraLinkDemoProject.CuraLinkDemo.Api.Controllers
@@ -10,10 +11,12 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Api.Controllers
     public class ResidentsController : ControllerBase
     {
         private readonly IResidentService _residentService;
+        private readonly CuraLinkDbContext _context;
 
-        public ResidentsController(IResidentService residentService)
+        public ResidentsController(IResidentService residentService, CuraLinkDbContext context)
         {
             _residentService = residentService;
+            _context = context;
         }
 
         // GET: api/residents
@@ -32,7 +35,13 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Api.Controllers
             if (resident == null)
                 return NotFound();
 
-            return Ok(resident);
+            return Ok(new
+            {
+                resident.Id,
+                resident.FullName,
+                resident.RoomNumber,
+                resident.PhotoUrl
+            }); 
         }
 
         // POST: api/residents

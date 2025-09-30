@@ -1,6 +1,9 @@
 export default function ResidentOverview() {
     return (
-        <div className="space-y-6">
+        <div className="space-y-6"
+            style={{
+                color:"black"
+            } }>
             <div className="flex items-center gap-6 bg-white p-6 rounded-xl shadow">
                 <img
                     src="/resident.jpg"
@@ -18,7 +21,7 @@ export default function ResidentOverview() {
                     <h3 className="font-semibold mb-2">Allgemeine Infos</h3>
                     <ul className="text-sm text-gray-700 space-y-1">
                         <li>Zimmer: 12A</li>
-                        <li>Diät: Vegetarisch</li>
+                        <li>Diaet: Vegetarisch</li>
                         <li>Kontakt: +49 123 456789</li>
                     </ul>
                 </div>

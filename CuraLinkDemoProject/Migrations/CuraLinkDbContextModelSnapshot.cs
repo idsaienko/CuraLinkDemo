@@ -22,6 +22,77 @@ namespace CuraLinkDemoProject.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("CuraLinkDemoProject.CuraLinkDemo.Api.Models.Ausscheidung", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Abstand")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Konsistenz")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Menge")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ResidentId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("StaffId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Time")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ResidentId");
+
+                    b.HasIndex("StaffId");
+
+                    b.ToTable("Ausscheidungen");
+                });
+
+            modelBuilder.Entity("CuraLinkDemoProject.CuraLinkDemo.Api.Models.MealSchedule", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Comments")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MealName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("MealTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("MealType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ResidentId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ResidentId");
+
+                    b.ToTable("MealSchedules");
+                });
+
             modelBuilder.Entity("CuraLinkDemoProject.CuraLinkDemo.Domain.Entities.ApiKey", b =>
                 {
                     b.Property<int>("Id")
@@ -120,13 +191,21 @@ namespace CuraLinkDemoProject.Migrations
 
             modelBuilder.Entity("CuraLinkDemoProject.CuraLinkDemo.Domain.Entities.PainObservation", b =>
                 {
-                    b.Property<int>("Amount")
-                        .HasColumnType("int");
-
                     b.Property<int>("Id")
                         .HasColumnType("int");
 
+                    b.Property<string>("Location")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Notes")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("ResidentId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Score")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("Time")
@@ -149,9 +228,15 @@ namespace CuraLinkDemoProject.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Message")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("ResidentId")
+                        .HasColumnType("int");
 
                     b.Property<int>("StaffId")
                         .HasColumnType("int");
@@ -184,6 +269,14 @@ namespace CuraLinkDemoProject.Migrations
                     b.Property<string>("Notes")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhotoUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("RoomNumber")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -191,6 +284,60 @@ namespace CuraLinkDemoProject.Migrations
                     b.HasKey("ResidentId");
 
                     b.ToTable("Residents");
+
+                    b.HasData(
+                        new
+                        {
+                            ResidentId = 1,
+                            CareLevel = 0,
+                            DateOfBirth = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FullName = "Max Muster",
+                            Notes = "Vegetarisch, lactosefrei",
+                            Phone = "+49 176 12345678",
+                            PhotoUrl = "/images/residents/max.jpg",
+                            RoomNumber = "101A"
+                        });
+                });
+
+            modelBuilder.Entity("CuraLinkDemoProject.CuraLinkDemo.Domain.Entities.ResidentMovement", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<double?>("Angle")
+                        .HasColumnType("float");
+
+                    b.Property<DateTime>("MovementTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Notes")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Object")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ResidentId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Room")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("StaffId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ResidentId");
+
+                    b.HasIndex("StaffId");
+
+                    b.ToTable("ResidentMovements");
                 });
 
             modelBuilder.Entity("CuraLinkDemoProject.CuraLinkDemo.Domain.Entities.Staff", b =>
@@ -245,6 +392,36 @@ namespace CuraLinkDemoProject.Migrations
                     b.ToTable("VitalSigns");
                 });
 
+            modelBuilder.Entity("CuraLinkDemoProject.CuraLinkDemo.Api.Models.Ausscheidung", b =>
+                {
+                    b.HasOne("CuraLinkDemoProject.CuraLinkDemo.Domain.Entities.Resident", "Resident")
+                        .WithMany("Ausscheidungen")
+                        .HasForeignKey("ResidentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CuraLinkDemoProject.CuraLinkDemo.Domain.Entities.Staff", "Staff")
+                        .WithMany()
+                        .HasForeignKey("StaffId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Resident");
+
+                    b.Navigation("Staff");
+                });
+
+            modelBuilder.Entity("CuraLinkDemoProject.CuraLinkDemo.Api.Models.MealSchedule", b =>
+                {
+                    b.HasOne("CuraLinkDemoProject.CuraLinkDemo.Domain.Entities.Resident", "Resident")
+                        .WithMany()
+                        .HasForeignKey("ResidentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Resident");
+                });
+
             modelBuilder.Entity("CuraLinkDemoProject.CuraLinkDemo.Domain.Entities.Appointment", b =>
                 {
                     b.HasOne("CuraLinkDemoProject.CuraLinkDemo.Domain.Entities.Resident", "Resident")
@@ -297,6 +474,25 @@ namespace CuraLinkDemoProject.Migrations
                     b.Navigation("Staff");
                 });
 
+            modelBuilder.Entity("CuraLinkDemoProject.CuraLinkDemo.Domain.Entities.ResidentMovement", b =>
+                {
+                    b.HasOne("CuraLinkDemoProject.CuraLinkDemo.Domain.Entities.Resident", "Resident")
+                        .WithMany("ResidentMovements")
+                        .HasForeignKey("ResidentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CuraLinkDemoProject.CuraLinkDemo.Domain.Entities.Staff", "Staff")
+                        .WithMany("ResidentMovements")
+                        .HasForeignKey("StaffId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Resident");
+
+                    b.Navigation("Staff");
+                });
+
             modelBuilder.Entity("CuraLinkDemoProject.CuraLinkDemo.Domain.Entities.VitalSign", b =>
                 {
                     b.HasOne("CuraLinkDemoProject.CuraLinkDemo.Domain.Entities.Resident", "Resident")
@@ -311,11 +507,17 @@ namespace CuraLinkDemoProject.Migrations
             modelBuilder.Entity("CuraLinkDemoProject.CuraLinkDemo.Domain.Entities.Resident", b =>
                 {
                     b.Navigation("Appointments");
+
+                    b.Navigation("Ausscheidungen");
+
+                    b.Navigation("ResidentMovements");
                 });
 
             modelBuilder.Entity("CuraLinkDemoProject.CuraLinkDemo.Domain.Entities.Staff", b =>
                 {
                     b.Navigation("Appointments");
+
+                    b.Navigation("ResidentMovements");
                 });
 #pragma warning restore 612, 618
         }

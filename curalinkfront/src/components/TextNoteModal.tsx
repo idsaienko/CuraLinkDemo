@@ -1,4 +1,3 @@
-// components/TextNoteModal.tsx
 import { useState } from "react";
 import axios from "axios";
 

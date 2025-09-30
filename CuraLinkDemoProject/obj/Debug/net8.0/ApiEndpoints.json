@@ -135,6 +135,38 @@
     ]
   },
   {
+    "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.AusscheidungController",
+    "Method": "Add",
+    "RelativePath": "api/Ausscheidung",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "CuraLinkDemoProject.CuraLinkDemo.Application.DTOs.AusscheidungDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.AusscheidungController",
+    "Method": "GetByResident",
+    "RelativePath": "api/Ausscheidung/{residentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "residentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.LLMController",
     "Method": "ProcessReport",
     "RelativePath": "api/LLM/report",
@@ -337,17 +369,33 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.ReportsController",
-    "Method": "CreateReport",
-    "RelativePath": "api/Reports",
+    "ContainingType": "ReportsController",
+    "Method": "PostTextReport",
+    "RelativePath": "api/Reports/text",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "CuraLinkDemoProject.CuraLinkDemo.Application.DTOs.ReportDto",
+        "Name": "report",
+        "Type": "System.String",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReportsController",
+    "Method": "PostVoiceReport",
+    "RelativePath": "api/Reports/voice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

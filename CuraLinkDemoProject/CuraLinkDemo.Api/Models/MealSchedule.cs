@@ -13,8 +13,8 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Api.Models
 
         public DateTime MealTime { get; set; }
 
-        public string DietaryNotes { get; set; } = string.Empty;
+        public string Comments { get; set; } = string.Empty;
 
-        public string Menu { get; set; } = string.Empty;
+        public string MealName { get; set; } = string.Empty;
     }
 }

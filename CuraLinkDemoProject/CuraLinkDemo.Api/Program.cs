@@ -11,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 // --------------------
 builder.Services.AddDbContext<CuraLinkDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+Console.WriteLine("DB Connection: " + builder.Configuration.GetConnectionString("DefaultConnection"));
 
 // --------------------
 // 2. Service Regisration

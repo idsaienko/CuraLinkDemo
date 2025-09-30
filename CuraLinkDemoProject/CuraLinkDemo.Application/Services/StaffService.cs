@@ -16,7 +16,6 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Application.Services
             _context = context;
         }
 
-        // Получить всех сотрудников
         public async Task<IEnumerable<StaffDto>> GetAllAsync()
         {
             return await _context.Staff
@@ -30,7 +29,6 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Application.Services
                 .ToListAsync();
         }
 
-        // Получить сотрудника по Id
         public async Task<StaffDto?> GetByIdAsync(int id)
         {
             var staff = await _context.Staff.FindAsync(id);
@@ -45,7 +43,6 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Application.Services
             };
         }
 
-        // Добавить нового сотрудника
         public async Task<StaffDto> CreateAsync(CreateStaffDto dto)
         {
             var staff = new Staff
@@ -67,7 +64,6 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Application.Services
             };
         }
 
-        // Обновить данные сотрудника
         public async Task<bool> UpdateAsync(int id, CreateStaffDto dto)
         {
             var staff = await _context.Staff.FindAsync(id);
@@ -81,7 +77,6 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Application.Services
             return true;
         }
 
-        // Удалить сотрудника
         public async Task<bool> DeleteAsync(int id)
         {
             var staff = await _context.Staff.FindAsync(id);
