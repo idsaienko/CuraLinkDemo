@@ -43,7 +43,7 @@ export default function StaffDashboard() {
     };
 
     return (
-        <div className="flex flex-1">
+        <div className="flex flex-1" style={{ display:"inline-flex" }}>
             <div className="flex-1 p-6 space-y-6">
                 <div className="flex gap-4">
                     {!isRecording ? (
@@ -79,31 +79,31 @@ export default function StaffDashboard() {
 
                 <section>
                     <h2 className="text-lg font-semibold mb-2" style={{color:"black"}}>Offene Aufgaben</h2>
-                    <p className="text-gray-600">Keine offene Aufgabe</p>
+                    <p className="text-gray-600" style={{ color: "black" }}>Keine offene Aufgabe</p>
                 </section>
 
                 <section>
-                    <h2 className="text-lg font-semibold mb-2">Letzte Aktivitäten</h2>
-                    <ul className="text-gray-700 text-sm space-y-1">
-                        <li>Neuer Bericht erstellt (ID #123)</li>
+                    <h2 className="text-lg font-semibold mb-2" style={{ color: "black" }}>Letzte Aktivitaeten</h2>
+                    <ul className="text-gray-700 text-sm space-y-1" style={{ color: "black" }}>
+                        <li style={{ color: "black" }}>Neuer Bericht erstellt (ID #123)</li>
                     </ul>
                 </section>
 
-                <p className="text-green-600 font-bold text-center text-xl mt-10">
+                <p className="text-green-600 font-bold text-center text-xl mt-10" style={{ color: "#008E56" }}>
                     Care that connects.
                 </p>
             </div>
 
             <aside className="w-72 bg-white shadow rounded-xl p-4">
-                <h3 className="font-semibold mb-4">Tagesplan</h3>
+                <h3 className="font-semibold mb-4" style={{ color: "black" }}>Tagesplan</h3>
                 <ul className="space-y-3">
                     <li>
-                        <p className="font-medium">Max Mustermann</p>
-                        <p className="text-sm text-gray-600">Zimmer 12A – Frühstück 08:00</p>
+                        <p className="font-medium" style={{ color: "black" }}>Max Mustermann</p>
+                        <p className="text-sm text-gray-600" style={{ color: "black" }}>Zimmer 12A - Fruehstueck 08:00</p>
                     </li>
                     <li>
-                        <p className="font-medium">Anna Schmidt</p>
-                        <p className="text-sm text-gray-600">Zimmer 7B – Medikament 10:00</p>
+                        <p className="font-medium" style={{ color: "black" }}>Anna Schmidt</p>
+                        <p className="text-sm text-gray-600" style={{ color: "black" }}>Zimmer 7B - Medikament 10:00</p>
                     </li>
                 </ul>
             </aside>
@@ -111,15 +111,26 @@ export default function StaffDashboard() {
             {showTextModal && (
                 <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center">
                     <div className="bg-white p-6 rounded-xl w-96">
-                        <h3 className="text-lg font-semibold mb-4">Text Note eingeben</h3>
+                        <h3 className="text-lg font-semibold mb-4" style={{ color: "black" }}>Text Note eingeben</h3>
                         <textarea
                             className="w-full border rounded-lg p-2 h-32 mb-4"
                             placeholder="Bericht eingeben..."
+                            style=
+                            {{
+                                color: "black",
+                                borderColor:"black"
+                            }}
+                            
                         ></textarea>
                         <div className="flex justify-end gap-3">
                             <button
                                 onClick={() => setShowTextModal(false)}
                                 className="px-4 py-2 border rounded-lg"
+                                style=
+                                {{
+                                    color: "black",
+                                    backgroundColor:"white"
+                                }}
                             >
                                 Abbrechen
                             </button>
@@ -128,6 +139,11 @@ export default function StaffDashboard() {
                                     setShowTextModal(false);
                                 }}
                                 className="px-4 py-2 bg-blue-600 text-white rounded-lg"
+                                style=
+                                {{
+                                    color: "black",
+                                    backgroundColor:"white"
+                                }}
                             >
                                 Senden
                             </button>

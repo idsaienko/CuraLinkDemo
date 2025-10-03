@@ -3,319 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20250930015602_FirstCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CuraLinkDemoProject\\Migrations\\20250930015602_FirstCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.infrastructure\\data\\curalinkdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.infrastructure\\data\\curalinkdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20250929235634_SecondCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CuraLinkDemoProject\\Migrations\\20250929235634_SecondCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemoproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemoproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20250929220402_FirstCrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CuraLinkDemoProject\\Migrations\\20250929220402_FirstCrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.infrastructure\\data\\curalinkdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.infrastructure\\data\\curalinkdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20250929085407_InitialCrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CuraLinkDemoProject\\Migrations\\20250929085407_InitialCrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.domain\\entities\\resident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.domain\\entities\\resident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\components\\sidebarresident.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\components\\sidebarresident.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\components\\header.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\components\\header.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\pages\\staff\\staffdashboard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\pages\\staff\\staffdashboard.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\components\\layout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\components\\layout.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\components\\residentnutrition.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\components\\residentnutrition.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\components\\sidebarstaff.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\components\\sidebarstaff.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\pages\\residents\\residentoverview.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\pages\\residents\\residentoverview.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\components\\sidebarresident.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\components\\sidebarresident.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\pages\\residents\\residentnutritionpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\pages\\residents\\residentnutritionpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\components\\residentheader.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\components\\residentheader.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\pages\\residents\\residentmovementpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\pages\\residents\\residentmovementpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\node_modules\\react-router\\dist\\development\\context-CIdFp11b.d.mts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:curalinkfront\\node_modules\\react-router\\dist\\development\\context-CIdFp11b.d.mts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\components\\navigation.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\components\\navigation.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\components\\residentausscheidung.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\components\\residentausscheidung.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\pages\\residents\\residentausscheidungpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\pages\\residents\\residentausscheidungpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\pages\\residents\\residentdocuments.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\pages\\residents\\residentdocuments.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20251002204909_SeedInitialData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CuraLinkDemoProject\\Migrations\\20251002204909_SeedInitialData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\components\\textnotemodal.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\components\\textnotemodal.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.infrastructure\\data\\curalinkdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.infrastructure\\data\\curalinkdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\pages\\residents\\residentappointments.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\pages\\residents\\residentappointments.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20251002195348_SeedInitialDataFixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CuraLinkDemoProject\\Migrations\\20251002195348_SeedInitialDataFixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\components\\residentmovement.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\components\\residentmovement.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20251002192618_SeedInitialData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CuraLinkDemoProject\\Migrations\\20251002192618_SeedInitialData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\services\\movementservice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\services\\movementservice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.infrastructure\\data\\curalinkdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.infrastructure\\data\\curalinkdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\services\\ausscheidungservice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\services\\ausscheidungservice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.api\\controllers\\residentmovementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.api\\controllers\\residentmovementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.api\\controllers\\ausscheidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.api\\controllers\\ausscheidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.api\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.api\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.api\\controllers\\llmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.api\\controllers\\llmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\services\\mealservice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\services\\mealservice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.api\\controllers\\mealschedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.api\\controllers\\mealschedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.application\\services\\ausscheidungservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.application\\services\\ausscheidungservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.api\\controllers\\residentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.api\\controllers\\residentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.api\\models\\ausscheidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.api\\models\\ausscheidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.application\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.application\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.application\\services\\residentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.application\\services\\residentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.application\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.application\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.application\\services\\painobservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.application\\services\\painobservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.application\\services\\medicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.application\\services\\medicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.application\\interfaces\\illmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.application\\interfaces\\illmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.domain\\entities\\residentmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.domain\\entities\\residentmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.api\\models\\mealschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.api\\models\\mealschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20251002180212_SeedInitialData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CuraLinkDemoProject\\Migrations\\20251002180212_SeedInitialData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.domain\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.domain\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.application\\dtos\\residentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.application\\dtos\\residentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\tsconfig.app.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\tsconfig.app.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\tsconfig.node.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\tsconfig.node.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.application\\dtos\\mealscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.application\\dtos\\mealscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\styles\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\styles\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\pages\\assistantpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\pages\\assistantpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\pages\\residents\\residentprofile.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\pages\\residents\\residentprofile.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.infrastructure\\externalservices\\openaillmclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.infrastructure\\externalservices\\openaillmclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.application\\interfaces\\iausscheidungservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.application\\interfaces\\iausscheidungservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.application\\dtos\\ausscheidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.application\\dtos\\ausscheidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\curalinkfront.esproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\curalinkfront.esproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.api\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.api\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\api\\axiosclient.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\api\\axiosclient.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.domain\\entities\\openaireesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.domain\\entities\\openaireesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.infrastructure\\repositories\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.infrastructure\\repositories\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.infrastructure\\repositories\\residentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.infrastructure\\repositories\\residentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.infrastructure\\security\\apikeygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.infrastructure\\security\\apikeygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.infrastructure\\middleware\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.infrastructure\\middleware\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.domain\\entities\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.domain\\entities\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkdemoproject\\curalinkdemo.application\\dtos\\reportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B57AC3-12BC-4848-B3A2-5E329D810432}|CuraLinkDemoProject\\CuraLinkDemoProject.csproj|solutionrelative:curalinkdemoproject\\curalinkdemo.application\\dtos\\reportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\tailwind.config.js||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\tailwind.config.js||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\postcss.config,cjs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\postcss.config,cjs||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.Managed.Core.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\api\\resident.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\api\\resident.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|c:\\users\\idsai\\dev\\curalinkdemo\\curalinkfront\\src\\pages\\residents\\residentoverview.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{AA4B25CD-CC16-6A39-5855-76AAE91EF7FC}|CuraLinkFront\\curalinkfront.esproj|solutionrelative:curalinkfront\\src\\pages\\residents\\residentoverview.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -324,1017 +57,170 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 199,
+          "DockedWidth": 183,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250930015602_FirstCreate.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20250930015602_FirstCreate.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\Migrations\\20250930015602_FirstCreate.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20250930015602_FirstCreate.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\Migrations\\20250930015602_FirstCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T01:56:02.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CuraLinkDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Data\\CuraLinkDbContextFactory.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Data\\CuraLinkDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Data\\CuraLinkDbContextFactory.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Data\\CuraLinkDbContextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T01:49:48.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\appsettings.json",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-22T04:20:39.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Properties\\launchSettings.json",
-              "RelativeToolTip": "CuraLinkDemoProject\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-30T00:48:44.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20250929235634_SecondCreate.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20250929235634_SecondCreate.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\Migrations\\20250929235634_SecondCreate.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20250929235634_SecondCreate.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\Migrations\\20250929235634_SecondCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T23:56:34.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20250929220402_FirstCrate.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20250929220402_FirstCrate.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\Migrations\\20250929220402_FirstCrate.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20250929220402_FirstCrate.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\Migrations\\20250929220402_FirstCrate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T22:04:02.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CuraLinkDemoProject",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemoProject.csproj",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemoProject.csproj",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemoProject.csproj",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemoProject.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-28T18:12:00.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20250929085407_InitialCrate.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20250929085407_InitialCrate.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\Migrations\\20250929085407_InitialCrate.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20250929085407_InitialCrate.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\Migrations\\20250929085407_InitialCrate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T08:54:07.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CuraLinkDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Data\\CuraLinkDbContext.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Data\\CuraLinkDbContext.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Data\\CuraLinkDbContext.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Data\\CuraLinkDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:06:04.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "App.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\App.tsx",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\App.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\App.tsx",
-              "RelativeToolTip": "curalinkfront\\src\\App.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-19T11:24:36.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Header.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\Header.tsx",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\components\\Header.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\Header.tsx",
-              "RelativeToolTip": "curalinkfront\\src\\components\\Header.tsx",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwEMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-21T15:56:46.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "StaffDashboard.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\pages\\staff\\StaffDashboard.tsx",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\pages\\staff\\StaffDashboard.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\pages\\staff\\StaffDashboard.tsx",
-              "RelativeToolTip": "curalinkfront\\src\\pages\\staff\\StaffDashboard.tsx",
-              "ViewState": "AgIAADIAAAAAAAAAAAAQwHcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-28T21:14:43.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Resident.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\Resident.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\Resident.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\Resident.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\Resident.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T17:47:44.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Layout.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\Layout.tsx",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\components\\Layout.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\Layout.tsx",
-              "RelativeToolTip": "curalinkfront\\src\\components\\Layout.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-21T15:58:04.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ResidentNutrition.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\ResidentNutrition.tsx",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\components\\ResidentNutrition.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\ResidentNutrition.tsx",
-              "RelativeToolTip": "curalinkfront\\src\\components\\ResidentNutrition.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-28T20:11:05.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SidebarStaff.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\SidebarStaff.tsx",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\components\\SidebarStaff.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\SidebarStaff.tsx",
-              "RelativeToolTip": "curalinkfront\\src\\components\\SidebarStaff.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-22T01:26:05.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "main.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\main.tsx",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\main.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\main.tsx",
-              "RelativeToolTip": "curalinkfront\\src\\main.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-19T11:32:13.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "index.css",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\index.css",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\index.css",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\index.css",
-              "RelativeToolTip": "curalinkfront\\src\\index.css",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAEQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-19T11:11:18.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ResidentOverview.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\pages\\residents\\ResidentOverview.tsx",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\pages\\residents\\ResidentOverview.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\pages\\residents\\ResidentOverview.tsx",
-              "RelativeToolTip": "curalinkfront\\src\\pages\\residents\\ResidentOverview.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-28T21:16:12.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "SidebarResident.tsx",
               "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\SidebarResident.tsx",
               "RelativeDocumentMoniker": "curalinkfront\\src\\components\\SidebarResident.tsx",
               "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\SidebarResident.tsx",
               "RelativeToolTip": "curalinkfront\\src\\components\\SidebarResident.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-21T15:57:42.519Z",
+              "WhenOpened": "2025-10-03T16:00:42.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "App.css",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\App.css",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\App.css",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\App.css",
-              "RelativeToolTip": "curalinkfront\\src\\App.css",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-17T00:34:33.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ResidentNutritionPage.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkFront\\src\\pages\\residents\\ResidentNutritionPage.tsx",
-              "RelativeDocumentMoniker": "CuraLinkFront\\src\\pages\\residents\\ResidentNutritionPage.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkFront\\src\\pages\\residents\\ResidentNutritionPage.tsx",
-              "RelativeToolTip": "CuraLinkFront\\src\\pages\\residents\\ResidentNutritionPage.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ResidentNutrition.tsx",
+              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\ResidentNutrition.tsx",
+              "RelativeDocumentMoniker": "curalinkfront\\src\\components\\ResidentNutrition.tsx",
+              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\ResidentNutrition.tsx",
+              "RelativeToolTip": "curalinkfront\\src\\components\\ResidentNutrition.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-28T16:47:54Z",
+              "WhenOpened": "2025-09-30T02:06:25.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ResidentHeader.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\ResidentHeader.tsx",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\components\\ResidentHeader.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\ResidentHeader.tsx",
-              "RelativeToolTip": "curalinkfront\\src\\components\\ResidentHeader.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBgAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "ResidentOverview.tsx",
+              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\pages\\residents\\ResidentOverview.tsx",
+              "RelativeDocumentMoniker": "curalinkfront\\src\\pages\\residents\\ResidentOverview.tsx",
+              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\pages\\residents\\ResidentOverview.tsx",
+              "RelativeToolTip": "curalinkfront\\src\\pages\\residents\\ResidentOverview.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-28T17:26:47.289Z",
+              "WhenOpened": "2025-09-30T02:04:13.619Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 216,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ResidentMovementPage.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkFront\\src\\pages\\residents\\ResidentMovementPage.tsx",
-              "RelativeDocumentMoniker": "CuraLinkFront\\src\\pages\\residents\\ResidentMovementPage.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkFront\\src\\pages\\residents\\ResidentMovementPage.tsx",
-              "RelativeToolTip": "CuraLinkFront\\src\\pages\\residents\\ResidentMovementPage.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "App.tsx",
+              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\App.tsx",
+              "RelativeDocumentMoniker": "curalinkfront\\src\\App.tsx",
+              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\App.tsx",
+              "RelativeToolTip": "curalinkfront\\src\\App.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-28T16:49:19.935Z",
+              "WhenOpened": "2025-10-03T15:05:33.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "context-CIdFp11b.d.mts",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\node_modules\\react-router\\dist\\development\\context-CIdFp11b.d.mts",
-              "RelativeDocumentMoniker": "curalinkfront\\node_modules\\react-router\\dist\\development\\context-CIdFp11b.d.mts",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\node_modules\\react-router\\dist\\development\\context-CIdFp11b.d.mts",
-              "RelativeToolTip": "curalinkfront\\node_modules\\react-router\\dist\\development\\context-CIdFp11b.d.mts",
-              "ViewState": "AgIAACIHAAAAAAAAAAAawD0HAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-28T21:34:20.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Navigation.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\Navigation.tsx",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\components\\Navigation.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\Navigation.tsx",
-              "RelativeToolTip": "curalinkfront\\src\\components\\Navigation.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-28T21:17:34.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ResidentAusscheidung.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkFront\\src\\components\\ResidentAusscheidung.tsx",
-              "RelativeDocumentMoniker": "CuraLinkFront\\src\\components\\ResidentAusscheidung.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkFront\\src\\components\\ResidentAusscheidung.tsx",
-              "RelativeToolTip": "CuraLinkFront\\src\\components\\ResidentAusscheidung.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-28T20:16:54.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 3,
               "Title": "ResidentAusscheidungPage.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkFront\\src\\pages\\residents\\ResidentAusscheidungPage.tsx",
-              "RelativeDocumentMoniker": "CuraLinkFront\\src\\pages\\residents\\ResidentAusscheidungPage.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkFront\\src\\pages\\residents\\ResidentAusscheidungPage.tsx",
-              "RelativeToolTip": "CuraLinkFront\\src\\pages\\residents\\ResidentAusscheidungPage.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\pages\\residents\\ResidentAusscheidungPage.tsx",
+              "RelativeDocumentMoniker": "curalinkfront\\src\\pages\\residents\\ResidentAusscheidungPage.tsx",
+              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\pages\\residents\\ResidentAusscheidungPage.tsx",
+              "RelativeToolTip": "curalinkfront\\src\\pages\\residents\\ResidentAusscheidungPage.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-28T20:20:51.763Z",
+              "WhenOpened": "2025-10-03T15:04:49.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ResidentDocuments.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\pages\\residents\\ResidentDocuments.tsx",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\pages\\residents\\ResidentDocuments.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\pages\\residents\\ResidentDocuments.tsx",
-              "RelativeToolTip": "curalinkfront\\src\\pages\\residents\\ResidentDocuments.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-28T20:24:59.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "TextNoteModal.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\TextNoteModal.tsx",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\components\\TextNoteModal.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\TextNoteModal.tsx",
-              "RelativeToolTip": "curalinkfront\\src\\components\\TextNoteModal.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-22T02:58:26.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ResidentAppointments.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\pages\\residents\\ResidentAppointments.tsx",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\pages\\residents\\ResidentAppointments.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\pages\\residents\\ResidentAppointments.tsx",
-              "RelativeToolTip": "curalinkfront\\src\\pages\\residents\\ResidentAppointments.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-28T21:02:38.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ResidentMovement.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\ResidentMovement.tsx",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\components\\ResidentMovement.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\components\\ResidentMovement.tsx",
-              "RelativeToolTip": "curalinkfront\\src\\components\\ResidentMovement.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-28T20:26:53.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "movementService.ts",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\services\\movementService.ts",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\services\\movementService.ts",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\services\\movementService.ts",
-              "RelativeToolTip": "curalinkfront\\src\\services\\movementService.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-28T20:25:48.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ausscheidungService.ts",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\services\\ausscheidungService.ts",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\services\\ausscheidungService.ts",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\services\\ausscheidungService.ts",
-              "RelativeToolTip": "curalinkfront\\src\\services\\ausscheidungService.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-28T20:15:13.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ResidentMovementController.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\ResidentMovementController.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\ResidentMovementController.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\ResidentMovementController.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\ResidentMovementController.cs",
+              "DocumentIndex": 4,
+              "Title": "20251002204909_SeedInitialData.cs",
+              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20251002204909_SeedInitialData.cs",
+              "RelativeDocumentMoniker": "CuraLinkDemoProject\\Migrations\\20251002204909_SeedInitialData.cs",
+              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20251002204909_SeedInitialData.cs",
+              "RelativeToolTip": "CuraLinkDemoProject\\Migrations\\20251002204909_SeedInitialData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T20:14:03.626Z",
+              "WhenOpened": "2025-10-02T20:49:09.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "AppointmentsController.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\AppointmentsController.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\AppointmentsController.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\AppointmentsController.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\AppointmentsController.cs",
+              "DocumentIndex": 6,
+              "Title": "20251002195348_SeedInitialDataFixed.cs",
+              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20251002195348_SeedInitialDataFixed.cs",
+              "RelativeDocumentMoniker": "CuraLinkDemoProject\\Migrations\\20251002195348_SeedInitialDataFixed.cs",
+              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20251002195348_SeedInitialDataFixed.cs",
+              "RelativeToolTip": "CuraLinkDemoProject\\Migrations\\20251002195348_SeedInitialDataFixed.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T20:13:38.234Z",
+              "WhenOpened": "2025-10-02T19:53:48.507Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "AusscheidungController.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\AusscheidungController.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\AusscheidungController.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\AusscheidungController.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\AusscheidungController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "20251002192618_SeedInitialData.cs",
+              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20251002192618_SeedInitialData.cs",
+              "RelativeDocumentMoniker": "CuraLinkDemoProject\\Migrations\\20251002192618_SeedInitialData.cs",
+              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20251002192618_SeedInitialData.cs",
+              "RelativeToolTip": "CuraLinkDemoProject\\Migrations\\20251002192618_SeedInitialData.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T00:36:57.301Z",
+              "WhenOpened": "2025-10-02T19:26:19.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "mealService.ts",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\services\\mealService.ts",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\services\\mealService.ts",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\services\\mealService.ts",
-              "RelativeToolTip": "curalinkfront\\src\\services\\mealService.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-28T19:38:46.758Z",
+              "DocumentIndex": 5,
+              "Title": "CuraLinkDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Data\\CuraLinkDbContext.cs",
+              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Data\\CuraLinkDbContext.cs",
+              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Data\\CuraLinkDbContext.cs",
+              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Data\\CuraLinkDbContext.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAUwFMAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T17:59:10.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "LLMController.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\LLMController.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\LLMController.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\LLMController.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\LLMController.cs",
+              "DocumentIndex": 8,
+              "Title": "CuraLinkDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Data\\CuraLinkDbContextFactory.cs",
+              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Data\\CuraLinkDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Data\\CuraLinkDbContextFactory.cs",
+              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Data\\CuraLinkDbContextFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:50:37.522Z",
+              "WhenOpened": "2025-10-02T18:06:01.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "MealScheduleController.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\MealScheduleController.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\MealScheduleController.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\MealScheduleController.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\MealScheduleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T16:41:57.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AusscheidungService.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\AusscheidungService.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\AusscheidungService.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\AusscheidungService.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\AusscheidungService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAACYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T00:34:56.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ResidentsController.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\ResidentsController.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\ResidentsController.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\ResidentsController.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\ResidentsController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAuwCwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T17:43:17.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Ausscheidung.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Models\\Ausscheidung.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Models\\Ausscheidung.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Models\\Ausscheidung.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Models\\Ausscheidung.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T00:18:03.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "StaffService.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\StaffService.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\StaffService.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\StaffService.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\StaffService.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAIwE8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T19:01:14.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "ResidentService.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\ResidentService.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\ResidentService.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\ResidentService.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\ResidentService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T19:01:09.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "ReportService.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\ReportService.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\ReportService.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\ReportService.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\ReportService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T19:01:06.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "PainObservationService.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\PainObservationService.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\PainObservationService.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\PainObservationService.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\PainObservationService.cs",
+              "DocumentIndex": 9,
+              "Title": "20251002180212_SeedInitialData.cs",
+              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20251002180212_SeedInitialData.cs",
+              "RelativeDocumentMoniker": "CuraLinkDemoProject\\Migrations\\20251002180212_SeedInitialData.cs",
+              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\Migrations\\20251002180212_SeedInitialData.cs",
+              "RelativeToolTip": "CuraLinkDemoProject\\Migrations\\20251002180212_SeedInitialData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T19:01:04.603Z",
+              "WhenOpened": "2025-10-02T18:02:12.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "MedicationService.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\MedicationService.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\MedicationService.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\MedicationService.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Services\\MedicationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T19:01:02.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "ILLMService.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Interfaces\\ILLMService.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Interfaces\\ILLMService.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Interfaces\\ILLMService.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Interfaces\\ILLMService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:51:13.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "ResidentMovement.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\ResidentMovement.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\ResidentMovement.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\ResidentMovement.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\ResidentMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T18:51:56.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "MealSchedule.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Models\\MealSchedule.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Models\\MealSchedule.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Models\\MealSchedule.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Models\\MealSchedule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T03:16:36.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 10,
               "Title": "Staff.cs",
               "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\Staff.cs",
               "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\Staff.cs",
               "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\Staff.cs",
               "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\Staff.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T18:34:28.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "ResidentDto.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\ResidentDto.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\ResidentDto.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\ResidentDto.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\ResidentDto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAowB4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T17:45:31.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "package.json",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\package.json",
-              "RelativeDocumentMoniker": "curalinkfront\\package.json",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\package.json",
-              "RelativeToolTip": "curalinkfront\\package.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-17T09:23:52.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "tsconfig.app.json",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\tsconfig.app.json",
-              "RelativeDocumentMoniker": "curalinkfront\\tsconfig.app.json",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\tsconfig.app.json",
-              "RelativeToolTip": "curalinkfront\\tsconfig.app.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-22T05:01:28.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "tsconfig.node.json",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\tsconfig.node.json",
-              "RelativeDocumentMoniker": "curalinkfront\\tsconfig.node.json",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\tsconfig.node.json",
-              "RelativeToolTip": "curalinkfront\\tsconfig.node.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-22T05:04:01.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "tsconfig.json",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\tsconfig.json",
-              "RelativeDocumentMoniker": "curalinkfront\\tsconfig.json",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\tsconfig.json",
-              "RelativeToolTip": "curalinkfront\\tsconfig.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-22T04:42:26.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "MealScheduleDto.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\MealScheduleDto.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\MealScheduleDto.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\MealScheduleDto.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\MealScheduleDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T16:42:44.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\styles\\style.css",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\styles\\style.css",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\styles\\style.css",
-              "RelativeToolTip": "curalinkfront\\src\\styles\\style.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-28T15:44:50.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "AssistantPage.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\pages\\AssistantPage.tsx",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\pages\\AssistantPage.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\pages\\AssistantPage.tsx",
-              "RelativeToolTip": "curalinkfront\\src\\pages\\AssistantPage.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-17T09:09:10.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "ResidentProfile.tsx",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\pages\\residents\\ResidentProfile.tsx",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\pages\\residents\\ResidentProfile.tsx",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\pages\\residents\\ResidentProfile.tsx",
-              "RelativeToolTip": "curalinkfront\\src\\pages\\residents\\ResidentProfile.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-28T14:56:51.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "OpenAILLMClient.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\ExternalServices\\OpenAILLMClient.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\ExternalServices\\OpenAILLMClient.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\ExternalServices\\OpenAILLMClient.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\ExternalServices\\OpenAILLMClient.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwCAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T03:16:55.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "IAusscheidungService.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Interfaces\\IAusscheidungService.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Interfaces\\IAusscheidungService.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\Interfaces\\IAusscheidungService.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Application\\Interfaces\\IAusscheidungService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T00:34:10.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "AusscheidungDto.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\AusscheidungDto.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\AusscheidungDto.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\AusscheidungDto.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\AusscheidungDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T00:22:17.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "curalinkfront.esproj",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkFront\\curalinkfront.esproj",
-              "RelativeDocumentMoniker": "CuraLinkFront\\curalinkfront.esproj",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkFront\\curalinkfront.esproj",
-              "RelativeToolTip": "CuraLinkFront\\curalinkfront.esproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-09-21T12:18:05.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "ReportsController.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\ReportsController.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\ReportsController.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\ReportsController.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Api\\Controllers\\ReportsController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA7wBsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:07:08.093Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "axiosClient.ts",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\api\\axiosClient.ts",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\api\\axiosClient.ts",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\api\\axiosClient.ts",
-              "RelativeToolTip": "curalinkfront\\src\\api\\axiosClient.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-18T08:16:38.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "OpenAiReesponse.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\OpenAiReesponse.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\OpenAiReesponse.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\OpenAiReesponse.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\OpenAiReesponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T03:16:06.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "ReportRepository.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Repositories\\ReportRepository.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Repositories\\ReportRepository.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Repositories\\ReportRepository.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Repositories\\ReportRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:56:45.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "ResidentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Repositories\\ResidentRepository.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Repositories\\ResidentRepository.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Repositories\\ResidentRepository.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Repositories\\ResidentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:56:44.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "ApiKeyMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Middleware\\ApiKeyMiddleware.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Middleware\\ApiKeyMiddleware.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Middleware\\ApiKeyMiddleware.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Middleware\\ApiKeyMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:56:07.55Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "ApiKeyGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Security\\ApiKeyGenerator.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Security\\ApiKeyGenerator.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Security\\ApiKeyGenerator.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Infrastructure\\Security\\ApiKeyGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:56:03.708Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "Report.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\Report.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\Report.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\Report.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Domain\\Entities\\Report.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:10:45.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "ReportDto.cs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\ReportDto.cs",
-              "RelativeDocumentMoniker": "CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\ReportDto.cs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\ReportDto.cs",
-              "RelativeToolTip": "CuraLinkDemoProject\\CuraLinkDemo.Application\\DTOs\\ReportDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T02:06:21.687Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
-              "Title": "tailwind.config.js",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\tailwind.config.js",
-              "RelativeDocumentMoniker": "curalinkfront\\tailwind.config.js",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\tailwind.config.js",
-              "RelativeToolTip": "curalinkfront\\tailwind.config.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-21T12:20:10.408Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 75,
-              "Title": "postcss.config,cjs",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\postcss.config,cjs",
-              "RelativeDocumentMoniker": "curalinkfront\\postcss.config,cjs",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\postcss.config,cjs",
-              "RelativeToolTip": "curalinkfront\\postcss.config,cjs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-09-19T11:30:10.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 76,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\index.html",
-              "RelativeDocumentMoniker": "curalinkfront\\index.html",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\index.html",
-              "RelativeToolTip": "curalinkfront\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-09-17T00:50:28.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 77,
-              "Title": "Microsoft.Managed.Core.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.Managed.Core.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.Managed.Core.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.Managed.Core.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\Roslyn\\Microsoft.Managed.Core.targets",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAwwL4AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-09-19T11:21:23.002Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 78,
-              "Title": "resident.ts",
-              "DocumentMoniker": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\api\\resident.ts",
-              "RelativeDocumentMoniker": "curalinkfront\\src\\api\\resident.ts",
-              "ToolTip": "C:\\Users\\idsai\\dev\\CuraLinkDemo\\curalinkfront\\src\\api\\resident.ts",
-              "RelativeToolTip": "curalinkfront\\src\\api\\resident.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-18T08:17:28.075Z"
+              "WhenOpened": "2025-10-02T18:00:55.272Z",
+              "EditorCaption": ""
             }
           ]
         }

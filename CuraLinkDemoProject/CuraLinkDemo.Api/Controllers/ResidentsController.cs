@@ -53,7 +53,6 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Api.Controllers
 
             var created = await _residentService.CreateAsync(dto);
 
-            // Возвращаем 201 Created с ссылкой на новый объект
             return CreatedAtAction(nameof(GetById), new { id = created.Id }, created);
         }
 

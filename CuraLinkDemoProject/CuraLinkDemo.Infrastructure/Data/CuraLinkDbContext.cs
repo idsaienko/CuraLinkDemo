@@ -63,7 +63,34 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Infrastructure.Data
                     Phone = "+49 176 12345678"
                 }
             );
-        }
 
+            modelBuilder.Entity<Staff>().HasData(new Staff
+            {
+                StaffId = 1,
+                FullName = "Anna Schmidt",
+                Role = Domain.Enums.Role.CareAssistant,
+                PhoneNumber = "+491234567890"
+            });
+
+            modelBuilder.Entity<MealSchedule>().HasData(
+                new MealSchedule { Id = 1, ResidentId = 1, MealType = "Frühstück", MealTime = new DateTime(2025, 11, 22, 8, 0, 0), Comments = "Normal" },
+                new MealSchedule { Id = 2, ResidentId = 1, MealType = "Mittagessen", MealTime = new DateTime(2025, 11, 22, 12, 30, 0), Comments = "Vegetarisch" },
+                new MealSchedule { Id = 3, ResidentId = 1, MealType = "Zwischenmahlzeit", MealTime = new DateTime(2025, 11, 22, 15, 0, 0), Comments = "Obst" },
+                new MealSchedule { Id = 4, ResidentId = 1, MealType = "Abendessen", MealTime = new DateTime(2025, 11, 22, 18, 30, 0), Comments = "Leicht" }
+            );
+
+            modelBuilder.Entity<ResidentMovement>().HasData(
+                new ResidentMovement { Id = 1, ResidentId = 1, StaffId = 1, Room = "Zimmer 101", Object = "Bett", Angle = 0, MovementTime = new DateTime(2025, 10, 02, 18, 00, 00), Notes = "Transfer ins Bett" },
+                new ResidentMovement { Id = 2, ResidentId = 1, StaffId = 1, Room = "Zimmer 101", Object = "Rollstuhl", Angle = 90, MovementTime = new DateTime(2025, 10, 02, 13, 24, 00), Notes = "Transfer in Rollstuhl" }
+            );
+
+            modelBuilder.Entity<Appointment>().HasData(
+                new Appointment { AppointmentId = 1, ResidentId = 1, StaffId = 1, Type = "Arztbesuch", DateTime = new DateTime(2025, 12, 15, 10, 15, 00), Notes = "Hausarzt" }
+            );
+
+            modelBuilder.Entity<Ausscheidung>().HasData(
+                new Ausscheidung { Id = 1, ResidentId = 1, StaffId = 1, Time = new DateTime(2025, 10, 02, 14, 00, 00), Menge = "200ml", Konsistenz = "normal", Abstand = "3h" }
+            );
+        }
     }
 }

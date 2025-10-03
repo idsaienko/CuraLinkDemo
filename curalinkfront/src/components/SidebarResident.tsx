@@ -1,7 +1,7 @@
 import { NavLink, useParams } from "react-router-dom";
 
 export default function SidebarResident() {
-    const { id } = useParams();
+    const id = 1;
 
     const linkClass = ({ isActive }: { isActive: boolean }) =>
         `block px-4 py-2 rounded hover:bg-gray-200 ${isActive ? "bg-gray-300 font-bold" : ""

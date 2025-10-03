@@ -12,7 +12,7 @@ export default function ResidentOverview() {
                 />
                 <div>
                     <h2 className="text-2xl font-bold">Max Mustermann</h2>
-                    <p className="text-gray-600">Zimmer 12A – Erdgeschoss</p>
+                    <p className="text-gray-600">Zimmer 123 – Erdgeschoss</p>
                 </div>
             </div>
 

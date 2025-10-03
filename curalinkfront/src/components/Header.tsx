@@ -18,7 +18,6 @@ export default function Header({ staff }: HeaderProps) {
                 display: "inline-flex",
                 top: "0px",
                 left: "0px"
-
             }}>
             <div className="flex items-center gap-2"
                 style={{
@@ -36,11 +35,10 @@ export default function Header({ staff }: HeaderProps) {
                         type="text"
                         placeholder="Suche Bewohner oder Berichte..."
                         className="ml-2 flex-1 outline-none"
-                        style={{
+                        style = {{
                             border: "2px",
                             borderColor: "black",
-                            color: "black",
-
+                            color: "black"
                         }}
                     />
                 </div>
@@ -66,7 +64,7 @@ export default function Header({ staff }: HeaderProps) {
                         className="w-10 h-10 rounded-full object-cover"
                         style={{ width: "47px", height: "47px" }}
                     />
-                    <span className="font-medium" defaultValue="Peter M.">{staff?.name}</span>
+                    <span className="font-medium" defaultValue="Peter M." style={{color:"black"} }>Peter M.</span>
                 </div>
             )}
         </header>
