@@ -239,38 +239,7 @@
         }
       }
     },
-    "/api/Ausscheidung": {
-      "post": {
-        "tags": [
-          "Ausscheidung"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/AusscheidungDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/AusscheidungDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/AusscheidungDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Ausscheidung/{residentId}": {
+    "/api/Ausscheidung/resident/{residentId}": {
       "get": {
         "tags": [
           "Ausscheidung"
@@ -1224,36 +1193,6 @@
           },
           "staff": {
             "$ref": "#/components/schemas/Staff"
-          },
-          "time": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "abstand": {
-            "type": "string",
-            "nullable": true
-          },
-          "menge": {
-            "type": "string",
-            "nullable": true
-          },
-          "konsistenz": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "AusscheidungDto": {
-        "type": "object",
-        "properties": {
-          "residentId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "staffId": {
-            "type": "integer",
-            "format": "int32"
           },
           "time": {
             "type": "string",

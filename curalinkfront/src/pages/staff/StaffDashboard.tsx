@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import api from "@/services/api";
+import api from "@/api/axiosConfig";
 
 export default function StaffDashboard() {
     const [showTextModal, setShowTextModal] = useState(false);

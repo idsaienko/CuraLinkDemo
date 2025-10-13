@@ -1,9 +1,12 @@
 import ResidentAusscheidung from "@/components/ResidentAusscheidung";
+import ResidentHeader from "../../components/ResidentHeader";
 
-export default function ResidentAusscheidungPage({ residentId }: { residentId: number }) {
+export default function ResidentAusscheidungPage() {
     return (
         <div className="p-4">
-            <ResidentAusscheidung residentId={residentId} />
+            <ResidentHeader />
+
+            <ResidentAusscheidung />
         </div>
     );
 }

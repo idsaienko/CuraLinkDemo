@@ -1,13 +1,13 @@
 import ResidentMovement from "@/components/ResidentMovement";
 import ResidentHeader from "@/components/ResidentHeader";
 
-export default function ResidentMovementPage({ residentId }: { residentId: number }) {
+export default function ResidentMovementPage() {
 
     return (
         <div className="p-6">
-            <ResidentHeader residentId={residentId} />
+            <ResidentHeader />
 
-            <ResidentMovement residentId={residentId} />
+            <ResidentMovement />
         </div>
     );
 }

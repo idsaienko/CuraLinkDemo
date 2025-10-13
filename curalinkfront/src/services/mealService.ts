@@ -1,6 +1,6 @@
 import api from "./api";
 
-export async function getMealSchedules(residentId: number) {
-    const response = await api.get(`/MealSchedules/${residentId}`);
+export async function getMealSchedules() {
+    const response = await api.get(`/MealSchedules/`);
     return response.data;
 }

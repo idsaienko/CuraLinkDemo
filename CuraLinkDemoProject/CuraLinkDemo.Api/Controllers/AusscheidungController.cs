@@ -1,6 +1,6 @@
-﻿using CuraLinkDemoProject.CuraLinkDemo.Application.DTOs;
-using CuraLinkDemoProject.CuraLinkDemo.Application.Interfaces;
+﻿using CuraLinkDemoProject.CuraLinkDemo.Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace CuraLinkDemoProject.CuraLinkDemo.Api.Controllers
 {
@@ -8,25 +8,22 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Api.Controllers
     [Route("api/[controller]")]
     public class AusscheidungController : ControllerBase
     {
-        private readonly IAusscheidungService _service;
+        private readonly CuraLinkDbContext _context;
 
-        public AusscheidungController(IAusscheidungService service)
+        public AusscheidungController(CuraLinkDbContext context)
         {
-            _service = service;
+            _context = context;
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Add([FromBody] AusscheidungDto dto)
-        {
-            var result = await _service.AddAsync(dto);
-            return Ok(result);
-        }
-
-        [HttpGet("{residentId}")]
+        [HttpGet("resident/{residentId}")]
         public async Task<IActionResult> GetByResident(int residentId)
         {
-            var result = await _service.GetByResidentAsync(residentId);
-            return Ok(result);
+            var ausscheidungen = await _context.Ausscheidungen
+                .Where(a => a.ResidentId == residentId)
+                .OrderByDescending(a => a.Time)
+                .ToListAsync();
+
+            return Ok(ausscheidungen);
         }
     }
 }

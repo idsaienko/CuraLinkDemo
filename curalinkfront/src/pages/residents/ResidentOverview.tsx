@@ -1,26 +1,26 @@
+import { useParams } from "react-router-dom";
+import { useResident } from "@/hooks/useResident";
+import ResidentHeader from "../../components/ResidentHeader";
+
 export default function ResidentOverview() {
+    const { residentId } = useParams<{ residentId: string }>();
+    const { resident, loading } = useResident(residentId);
+
+    if (loading) return <p>Lädt...</p>;
+    if (!resident) return <p>Kein Bewohner gefunden</p>;
+
     return (
         <div className="space-y-6"
             style={{
                 color:"black"
             } }>
-            <div className="flex items-center gap-6 bg-white p-6 rounded-xl shadow">
-                <img
-                    src="/resident.jpg"
-                    alt="resident"
-                    className="w-24 h-24 rounded-full object-cover"
-                />
-                <div>
-                    <h2 className="text-2xl font-bold">Max Mustermann</h2>
-                    <p className="text-gray-600">Zimmer 123 – Erdgeschoss</p>
-                </div>
-            </div>
+            <ResidentHeader />
 
             <div className="grid grid-cols-3 gap-6">
                 <div className="bg-white p-4 rounded-xl shadow">
                     <h3 className="font-semibold mb-2">Allgemeine Infos</h3>
                     <ul className="text-sm text-gray-700 space-y-1">
-                        <li>Zimmer: 12A</li>
+                        <li>{resident.location}</li>
                         <li>Diaet: Vegetarisch</li>
                         <li>Kontakt: +49 123 456789</li>
                     </ul>

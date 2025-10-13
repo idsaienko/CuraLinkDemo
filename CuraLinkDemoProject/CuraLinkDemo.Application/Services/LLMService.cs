@@ -1,12 +1,9 @@
-﻿using CuraLinkDemoProject.CuraLinkDemo.Api.Controllers;
-using CuraLinkDemoProject.CuraLinkDemo.Api.Models;
+﻿using CuraLinkDemoProject.CuraLinkDemo.Api.Models;
 using CuraLinkDemoProject.CuraLinkDemo.Application.DTOs;
 using CuraLinkDemoProject.CuraLinkDemo.Application.Interfaces;
 using CuraLinkDemoProject.CuraLinkDemo.Domain.Entities;
 using System.Net.Http.Headers;
-using System.Net.Http.Json;
 using System.Text.Json;
-using static System.Net.WebRequestMethods;
 
 namespace CuraLinkDemoProject.CuraLinkDemo.Application.Services
 {

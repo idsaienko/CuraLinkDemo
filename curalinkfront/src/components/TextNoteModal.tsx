@@ -1,11 +1,11 @@
 import { useState } from "react";
-import axios from "axios";
+import api from "../api/axiosConfig";
 
 export default function TextNoteModal({ onClose }: { onClose: () => void }) {
     const [text, setText] = useState("");
 
     const submit = async () => {
-        await axios.post("https://localhost:5001/api/reports", {
+        await api.post("https://localhost:5043/api/reports", {
             staffId: 1,
             residentId: 1,
             content: text,

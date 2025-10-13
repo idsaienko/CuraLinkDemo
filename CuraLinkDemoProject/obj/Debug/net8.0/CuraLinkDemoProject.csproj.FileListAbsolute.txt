@@ -205,8 +205,6 @@ C:\Users\idsai\OneDrive\Documents\GitHub\CuraLinkDemo\CuraLinkDemoProject\obj\De
 C:\Users\idsai\OneDrive\Documents\GitHub\CuraLinkDemo\CuraLinkDemoProject\obj\Debug\net8.0\ref\CuraLinkDemoProject.dll
 C:\Users\idsai\OneDrive\Documents\GitHub\CuraLinkDemo\CuraLinkDemoProject\bin\Debug\net8.0\CuraLinkDemo.Api\appsettings.Development.json
 C:\Users\idsai\OneDrive\Documents\GitHub\CuraLinkDemo\CuraLinkDemoProject\bin\Debug\net8.0\CuraLinkDemo.Api\appsettings.json
-C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\bin\Debug\net8.0\CuraLinkDemo.Api\appsettings.Development.json
-C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\bin\Debug\net8.0\CuraLinkDemo.Api\appsettings.json
 C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\bin\Debug\net8.0\CuraLinkDemoProject.staticwebassets.endpoints.json
 C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\bin\Debug\net8.0\CuraLinkDemoProject.exe
 C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\bin\Debug\net8.0\CuraLinkDemoProject.deps.json
@@ -377,3 +375,5 @@ C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\obj\Debug\net8.0\refint\Cura
 C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\obj\Debug\net8.0\CuraLinkDemoProject.pdb
 C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\obj\Debug\net8.0\CuraLinkDemoProject.genruntimeconfig.cache
 C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\obj\Debug\net8.0\ref\CuraLinkDemoProject.dll
+C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\bin\Debug\net8.0\appsettings.json

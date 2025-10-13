@@ -1,16 +1,31 @@
+import { useParams } from "react-router-dom";
+import { useResident } from "../hooks/useResident";
 import { useEffect, useState } from "react";
-import { getMovements, type Movement } from "@/services/movementService";
+import api from "../api/axiosConfig";
+import type { ResidentMovement } from "../types";
 
-export default function ResidentMovement({ residentId }: { residentId: number }) {
-    const [movements, setMovements] = useState<Movement[]>([]);
+export default function ResidentMobilityPage() {
+    const { residentId } = useParams<{ residentId: string }>();
+    const { resident, loading } = useResident(residentId);
+    const [movements, setMovements] = useState<ResidentMovement[]>([]);
+    const [dataLoading, setDataLoading] = useState(true);
 
     useEffect(() => {
-        getMovements(residentId).then(setMovements);
+        if (!residentId) return;
+
+        api
+            .get<ResidentMovement[]>(`http://localhost:5043/api/ResidentMovements/${residentId}`)
+            .then((res) => setMovements(res.data))
+            .catch((err) => console.error("Error fetching movements:", err))
+            .finally(() => setDataLoading(false));
     }, [residentId]);
+
+    if (loading || dataLoading) return <p>Lädt...</p>;
+    if (!resident) return <p>Kein Bewohner gefunden</p>;
 
     return (
         <div>
-            <h2 className="text-xl font-bold mb-4">Mobilität</h2>
+            <h2 className="text-xl font-bold mb-4">Mobilität von {resident.fullName}</h2>
             {movements.length === 0 ? (
                 <p>Keine Daten vorhanden.</p>
             ) : (
@@ -24,7 +39,7 @@ export default function ResidentMovement({ residentId }: { residentId: number })
                             <p><strong>Raum:</strong> {movement.room}</p>
                             <p><strong>Objekt:</strong> {movement.object}</p>
                             <p><strong>Winkel:</strong> {movement.angle}°</p>
-                            <p><strong>Notizen:</strong> {movement.notes}</p>
+                            <p><strong>Notizen:</strong> {movement.notes || 'Keine Notizen'}</p>
                         </li>
                     ))}
                 </ul>

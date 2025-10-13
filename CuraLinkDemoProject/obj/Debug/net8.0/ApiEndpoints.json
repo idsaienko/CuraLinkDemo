@@ -136,24 +136,8 @@
   },
   {
     "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.AusscheidungController",
-    "Method": "Add",
-    "RelativePath": "api/Ausscheidung",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "CuraLinkDemoProject.CuraLinkDemo.Application.DTOs.AusscheidungDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.AusscheidungController",
     "Method": "GetByResident",
-    "RelativePath": "api/Ausscheidung/{residentId}",
+    "RelativePath": "api/Ausscheidung/resident/{residentId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
