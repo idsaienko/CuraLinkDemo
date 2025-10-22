@@ -5,7 +5,6 @@ export default function AssistantPage() {
 
     const handleSubmit = () => {
         console.log("Note sent:", note);
-        // TODO:  axios.post for backend (LLMController)
     };
 
     return (

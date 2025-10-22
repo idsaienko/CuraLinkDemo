@@ -18,7 +18,7 @@ function App() {
                     <Route index element={<Navigate to={`/resident/${residentId}/overview`} replace />} />
 
                     <Route path="/resident/:residentId/overview" element={<ResidentOverview />} />
-                    <Route path="/resident/:residentId/mobility" element={<ResidentMovementPage />} />
+                    <Route path="/resident/:residentId/movement" element={<ResidentMovementPage />} />
                     <Route path="/resident/:residentId/ausscheidung" element={<ResidentAusscheidungPage />} />
                     <Route path="/resident/:residentId/nutrition" element={<ResidentNutritionPage />} />
                     <Route path="/resident/:residentId/appointments" element={<ResidentAppointmentsPage />} />

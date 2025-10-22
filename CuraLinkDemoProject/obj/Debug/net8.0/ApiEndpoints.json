@@ -167,6 +167,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.LLMController",
+    "Method": "PostVoiceReport",
+    "RelativePath": "api/LLM/voice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CuraLinkDemoProject.CuraLinkDemo.Api.Controllers.MealScheduleController",
     "Method": "Create",
     "RelativePath": "api/MealSchedule",
@@ -348,38 +364,6 @@
         "Name": "residentId",
         "Type": "System.Int32",
         "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ReportsController",
-    "Method": "PostTextReport",
-    "RelativePath": "api/Reports/text",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "report",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ReportsController",
-    "Method": "PostVoiceReport",
-    "RelativePath": "api/Reports/voice",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "file",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []

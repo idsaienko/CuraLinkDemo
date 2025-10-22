@@ -11,7 +11,7 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Infrastructure.Data
         {
             var configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\CuraLinkDemo.Api\\appsettings.json")
+                .AddJsonFile("C:\\Users\\idsai\\dev\\CuraLinkDemo\\CuraLinkDemoProject\\appsettings.json")
                 .Build();
 
             var optionsBuilder = new DbContextOptionsBuilder<CuraLinkDbContext>();

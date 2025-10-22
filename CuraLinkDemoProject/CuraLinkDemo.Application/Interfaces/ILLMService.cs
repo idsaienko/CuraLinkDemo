@@ -6,7 +6,5 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Application.Interfaces
     public interface ILLMService
     {
         Task<ReportAnalysisResult> ExtractReportDataAsync(string reportText);
-        Task<AnalysisResult> AnalyzeReportAsync(string reportText);
-        Task<string> TranscribeAudioAsync(Stream audioStream);
     }
 }

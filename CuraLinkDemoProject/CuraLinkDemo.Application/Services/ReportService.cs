@@ -1,65 +1,81 @@
 ﻿using CuraLinkDemoProject.CuraLinkDemo.Application.DTOs;
 using CuraLinkDemoProject.CuraLinkDemo.Application.Interfaces;
-using CuraLinkDemoProject.CuraLinkDemo.Domain.Entities;
 using CuraLinkDemoProject.CuraLinkDemo.Infrastructure.Data;
+using CuraLinkDemoProject.CuraLinkDemo.Domain.Entities;
+using CuraLinkDemoProject.CuraLinkDemo.Api.Models;
 
 namespace CuraLinkDemoProject.CuraLinkDemo.Application.Services
 {
     public class ReportService : IReportService
     {
-        private readonly CuraLinkDbContext _context;
         private readonly ILLMService _llmService;
+        private readonly CuraLinkDbContext _context;
 
-        public ReportService(CuraLinkDbContext context, ILLMService llmService)
+        public ReportService(ILLMService llmService, CuraLinkDbContext context)
         {
-            _context = context;
             _llmService = llmService;
+            _context = context;
         }
 
-        public async Task<object> ProcessReportAsync(ReportDto dto)
+        public async Task<ReportAnalysisResult> ProcessReportAsync(ReportDto dto)
         {
-            var structured = await _llmService.ExtractReportDataAsync(dto.TextReport);
+            // 1. Analyze the report with ChatGPT
+            var analysis = await _llmService.ExtractReportDataAsync(dto.TextReport);
 
-            foreach (var med in structured.Medications)
+            // 2. Save MealSchedules to database
+            if (analysis.MealSchedules?.Any() == true)
             {
-                _context.Medications.Add(new Medication
+                MealSchedule mealSchedule = new();
+                foreach (var meal in analysis.MealSchedules)
                 {
-                    Name = med.Name,
-                    Dosage = med.Dosage,
-                    StartDate = med.StartDate,
-                    ResidentId = dto.ResidentId
-                });
+                    mealSchedule.ResidentId = dto.ResidentId;
+                    mealSchedule.Id = meal.Id;
+                    mealSchedule.MealName = meal.MealName;
+                    mealSchedule.MealType = meal.MealType;
+                    mealSchedule.Comments = meal.Comments;
+                    mealSchedule.MealTime = meal.MealTime;
+                    _context.MealSchedules.Add(mealSchedule);
+                }
             }
 
-            foreach (var pain in structured.PainObservations)
+            // 3. Save Movements to database
+            if (analysis.Movements?.Any() == true)
             {
-                _context.PainObservations.Add(new PainObservation
+                ResidentMovement residentMovement = new();
+                foreach (var movement in analysis.Movements)
                 {
-                    ResidentId = dto.ResidentId,
-                    Score = pain.Score,
-                    Location = pain.Location,
-                    Notes = pain.Notes,
-                    Time = pain.Time
-                });
+                    residentMovement.ResidentId = dto.ResidentId;
+                    residentMovement.Resident = movement.Resident;
+                    residentMovement.StaffId = movement.StaffId;
+                    residentMovement.Staff = movement.Staff;
+                    residentMovement.Room = movement.Room;
+                    residentMovement.Object = movement.Object;
+                    residentMovement.Angle = movement.Angle;
+                    residentMovement.Notes = movement.Notes;
+                    _context.ResidentMovements.Add(residentMovement);
+                }
             }
 
-            foreach (var move in structured.Movements)
+            // 4. Save Ausscheidungen to database
+            if (analysis.Ausscheidungen?.Any() == true)
             {
-                _context.ResidentMovements.Add(new ResidentMovement
+                Ausscheidung ausscheidungTemp = new();
+                foreach (var ausscheidung in analysis.Ausscheidungen)
                 {
-                    ResidentId = dto.ResidentId,
-                    StaffId = dto.StaffId,
-                    Room = move.Room,
-                    Object = move.Object,
-                    Angle = move.Angle,
-                    MovementTime = move.MovementTime,
-                    Notes = move.Notes
-                });
+                    ausscheidungTemp.ResidentId = dto.ResidentId;
+                    ausscheidungTemp.StaffId = ausscheidung.StaffId;
+                    ausscheidungTemp.Time = ausscheidung.Time;
+                    ausscheidungTemp.Abstand = ausscheidung.Abstand;
+                    ausscheidungTemp.Menge = ausscheidung.Menge;
+                    ausscheidungTemp.Konsistenz = ausscheidung.Konsistenz;
+                    _context.Ausscheidungen.Add(ausscheidungTemp);
+                }
             }
 
+            // 5. Save all changes
             await _context.SaveChangesAsync();
 
-            return structured;
+            return analysis;
         }
     }
 }

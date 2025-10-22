@@ -24,7 +24,7 @@ export default function ResidentMobilityPage() {
     if (!resident) return <p>Kein Bewohner gefunden</p>;
 
     return (
-        <div>
+        <div style={{color:"black"} }>
             <h2 className="text-xl font-bold mb-4">Mobilität von {resident.fullName}</h2>
             {movements.length === 0 ? (
                 <p>Keine Daten vorhanden.</p>

@@ -38,7 +38,7 @@ export default function ResidentAusscheidungPage() {
     if (error) return <p>{error}</p>;
 
     return (
-        <div>
+        <div style = { { color:"black" } }>
             <h2 className="text-xl font-bold mb-4">Ausscheidung</h2>
             {ausscheidungen.length === 0 ? (
                 <p>Keine Daten vorhanden.</p>

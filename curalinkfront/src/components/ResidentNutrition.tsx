@@ -2,7 +2,6 @@ import { useParams } from "react-router-dom";
 import { useResident } from "../hooks/useResident";
 import { useEffect, useState } from "react";
 import api from "../api/axiosConfig";
-import ResidentHeader from "./ResidentHeader";
 import type { MealSchedule } from "../types";
 
 export default function ResidentNutrition() {
@@ -13,43 +12,46 @@ export default function ResidentNutrition() {
     const [error, setError] = useState<string | null>(null);
 
     useEffect(() => {
-        if (!residentId) return;
+        console.log("useEffect triggered, residentId:", residentId);
 
-        console.log("Fetching meals for resident:", residentId);
-        console.log("API instance baseURL:", api.defaults.baseURL);
-        const fullUrl = `${api.defaults.baseURL}/api/MealSchedule/resident/${residentId}`;
-        console.log("Full URL will be:", fullUrl);
+        if (!residentId) {
+            console.log("No residentId, returning");
+            return;
+        }
+
+        const url = `/api/MealSchedule/resident/${residentId}`;
+        console.log("Fetching from URL:", url);
 
         api
-            .get(`/api/MealSchedule/resident/${residentId}`)
+            .get<MealSchedule[]>(url)
             .then((res) => {
-                console.log("Raw API Response:", res);
-                console.log("Response data:", res.data);
-                console.log("Is array?", Array.isArray(res.data));
-                console.log("Type:", typeof res.data);
-
                 if (Array.isArray(res.data)) {
+                    console.log("Setting meals to:", res.data);
                     setMeals(res.data);
                 } else {
-                    console.error("Expected array but got:", res.data);
-                    setError("Ungültiges Datenformat - keine Liste erhalten");
+                    console.error("Expected array but got:", typeof res.data, res.data);
+                    setError("Ungültiges Datenformat");
                 }
             })
             .catch((err) => {
-                console.error("Error fetching meals:", err);
-                console.error("Error response:", err.response);
+                console.error("ERROR - Full error:", err);
+                console.error("ERROR - Error message:", err.message);
+                console.error("ERROR - Error response:", err.response);
                 setError(`Fehler: ${err.message}`);
             })
-            .finally(() => setMealsLoading(false));
+            .finally(() => {
+                console.log("Request completed, setting mealsLoading to false");
+                setMealsLoading(false);
+            });
     }, [residentId]);
 
     if (loading || mealsLoading) return <p>Lädt...</p>;
     if (!resident) return <p>Kein Bewohner gefunden</p>;
     if (error) return <p style={{ color: 'red' }}>{error}</p>;
 
+
     return (
         <div style={{ color: "black" }}>
-            <ResidentHeader />
             <h2 className="text-xl font-bold mb-4">Ernährung</h2>
             {meals.length > 0 ? (
                 meals.map((meal) => (
@@ -59,7 +61,7 @@ export default function ResidentNutrition() {
                     </div>
                 ))
             ) : (
-                <p>Keine Ernährungsdaten verfügbar</p>
+                    <p style={{ color:"black"} }>Keine Ernährungsdaten verfügbar</p>
             )}
         </div>
     );

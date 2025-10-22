@@ -4,6 +4,6 @@ namespace CuraLinkDemoProject.CuraLinkDemo.Application.Interfaces
 {
     public interface IReportService
     {
-        Task<object> ProcessReportAsync(ReportDto dto);
+        Task<ReportAnalysisResult> ProcessReportAsync(ReportDto dto);
     }
 }

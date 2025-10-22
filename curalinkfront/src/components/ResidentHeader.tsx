@@ -15,7 +15,9 @@ export default function ResidentHeader() {
                 alt={resident.fullName}
                 className="w-20 h-20 rounded-full object-cover"
             />
-            <div>
+            <div style={{
+                color:"black"
+            } }>
                 <h1 className="text-2xl font-bold">{resident.fullName}</h1>
                 <p className="text-gray-600">{resident.roomNumber}</p>
             </div>

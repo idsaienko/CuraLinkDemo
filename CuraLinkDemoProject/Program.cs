@@ -56,7 +56,20 @@ builder.Services.AddScoped<IResidentService, ResidentService>();
 builder.Services.AddScoped<IAppointmentService, AppointmentService>();
 builder.Services.AddScoped<IStaffService, StaffService>();
 builder.Services.AddScoped<IAusscheidungService, AusscheidungService>();
+builder.Services.AddScoped<IReportService, ReportService>();
+//builder.Services.AddScoped<ILLMService, LLMService>();
+builder.Services.AddScoped<ILLMService, MockLLMService>();
 
+// Configure HttpClient for OpenAI
+builder.Services.AddHttpClient("OpenAI", client =>
+{
+    client.BaseAddress = new Uri("https://api.openai.com/v1/");
+    var apiKey = builder.Configuration["LLM:ApiKey"];
+    client.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiKey}");
+});
+
+var llmApiKey = builder.Configuration["LLM:ApiKey"];
+Console.WriteLine($"LLM API Key loaded: {(string.IsNullOrEmpty(llmApiKey) ? "NULL/EMPTY" : "Found (length: " + llmApiKey.Length + ")")}");
 
 // --------------------
 // 3. Controllers + Swagger
@@ -93,7 +106,7 @@ app.UseCors("AllowAll");
 
 app.UseAuthorization();
 
-app.UseMiddleware<ApiKeyMiddleware>();
+//app.UseMiddleware<ApiKeyMiddleware>();
 
 app.MapControllers();
 
