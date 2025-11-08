@@ -10,7 +10,7 @@ export default function ResidentAppointmentsPage() {
 
     return (
         <div className="p-4" style={{color:"black"}}>
-            <h2 className="text-2xl font-bold">Termine von {resident.name}</h2>
+            <h2 className="text-2xl font-bold">Termine von {resident.fullName}</h2>
             <div>
                 <p><strong>{resident.appointment.type}</strong> – {new Date(resident.appointment.dateTime).toLocaleTimeString()}</p>
                 <p>Arzt: {resident.appointment.notes}</p>

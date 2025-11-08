@@ -1,4 +1,4 @@
-import api from "./api";
+import api from "../api/axiosConfig";
 
 export interface Movement {
     id: number;

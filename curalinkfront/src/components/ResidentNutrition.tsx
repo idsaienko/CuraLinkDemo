@@ -51,18 +51,22 @@ export default function ResidentNutrition() {
 
 
     return (
-        <div style={{ color: "black" }}>
-            <h2 className="text-xl font-bold mb-4">Ernährung</h2>
-            {meals.length > 0 ? (
-                meals.map((meal) => (
-                    <div key={meal.id} className="border rounded p-3 mb-3 shadow">
-                        <p><strong>{meal.mealType}</strong> – {new Date(meal.mealTime).toLocaleTimeString()}</p>
-                        <p>Kommentar: {meal.comments || 'Keine Kommentare'}</p>
-                    </div>
-                ))
-            ) : (
-                    <p style={{ color:"black"} }>Keine Ernährungsdaten verfügbar</p>
-            )}
+        <div className="NutritionPageWrap">
+            <h2>Ernährung</h2>
+            <div className="DataWrap">
+                {meals.length > 0 ? (
+                    meals.map((meal) => (
+                        <div key={meal.id} className="border rounded p-3 mb-3 shadow MealWrap">
+                            <div className="BlockTop">
+                                <p>{meal.mealType} - {new Date(meal.mealTime).toLocaleTimeString()}</p>
+                            </div>
+                            <p className="Comments">{meal.comments || 'Keine Kommentare'}</p>
+                        </div>
+                    ))
+                ) : (
+                    <p>Keine Ernährungsdaten verfügbar</p>
+                )}
+            </div>
         </div>
     );
 }

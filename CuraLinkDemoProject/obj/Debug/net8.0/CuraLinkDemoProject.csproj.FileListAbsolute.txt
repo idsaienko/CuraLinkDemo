@@ -368,7 +368,6 @@ C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\obj\Debug\net8.0\staticwebas
 C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\obj\Debug\net8.0\CuraLink.A041CD6D.Up2Date
 C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\obj\Debug\net8.0\CuraLinkDemoProject.dll
 C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\obj\Debug\net8.0\refint\CuraLinkDemoProject.dll
@@ -377,3 +376,4 @@ C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\obj\Debug\net8.0\CuraLinkDem
 C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\obj\Debug\net8.0\ref\CuraLinkDemoProject.dll
 C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\bin\Debug\net8.0\appsettings.json
+C:\Users\idsai\dev\CuraLinkDemo\CuraLinkDemoProject\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -1,5 +1,6 @@
 ﻿import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Layout from "./components/Layout";
+import "@/styles/style.css";
 
 import ResidentOverview from "./pages/residents/ResidentOverview";
 import StaffDashboard from "./pages/staff/StaffDashboard";
@@ -9,13 +10,13 @@ import ResidentMovementPage from "./pages/residents/ResidentMovementPage";
 import ResidentAppointmentsPage from "./pages/residents/ResidentAppointments";
  
 function App() {
-    const residentId = 1;
+    const defaultResidentId = 1;
 
     return (
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Layout />}>
-                    <Route index element={<Navigate to={`/resident/${residentId}/overview`} replace />} />
+                    <Route index element={<Navigate to={`/resident/${defaultResidentId}/overview`} replace />} />
 
                     <Route path="/resident/:residentId/overview" element={<ResidentOverview />} />
                     <Route path="/resident/:residentId/movement" element={<ResidentMovementPage />} />

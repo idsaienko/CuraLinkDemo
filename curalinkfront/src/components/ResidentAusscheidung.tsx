@@ -38,19 +38,22 @@ export default function ResidentAusscheidungPage() {
     if (error) return <p>{error}</p>;
 
     return (
-        <div style = { { color:"black" } }>
-            <h2 className="text-xl font-bold mb-4">Ausscheidung</h2>
-            {ausscheidungen.length === 0 ? (
+        <div className = "AusscheidungPageWrap">
+            <h2 className="AusscheidungTitel">Ausscheidung</h2>
+            <div className="AusscheidungWrap">
+                <p className = "ster">Zeit:</p>
+                <p className= "ster">Abstand:</p>
+                <p className= "ster">Menge:</p>
+                <p className= "ster">Konsistenz:</p>
+            </div>{ausscheidungen.length === 0 ? (
                 <p>Keine Daten vorhanden.</p>
             ) : (
                 ausscheidungen.map((ausscheidung) => (
-                    <div key={ausscheidung.id} className="border rounded p-3 mb-3 shadow">
-                        <p>
-                            <strong>Zeit:</strong> {new Date(ausscheidung.time).toLocaleString()}
-                        </p>
-                        <p><strong>Abstand:</strong> {ausscheidung.abstand}</p>
-                        <p><strong>Menge:</strong> {ausscheidung.menge}</p>
-                        <p><strong>Konsistenz:</strong> {ausscheidung.konsistenz}</p>
+                    <div key={ausscheidung.id} className="AusscheidungWrap">
+                        <p>{new Date(ausscheidung.time).toLocaleString()}</p>
+                        <p>{ausscheidung.abstand}</p>
+                        <p>{ausscheidung.menge}</p>
+                        <p>{ausscheidung.konsistenz}</p>
                     </div>
                 ))
             )}

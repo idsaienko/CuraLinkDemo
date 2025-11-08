@@ -1,7 +1,9 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://localhost:5043",
+    baseURL: process.env.NODE_ENV === 'production'
+        ? "https://mybackend-api-curalink.azurewebsites.net"  // Your Azure URL
+        : "http://localhost:5043",
     headers: {
         'X-API-Key': 'your-api-key-here'  // Replace with actual key
     }

@@ -4,6 +4,7 @@ export interface Resident {
     roomNumber: string;
     photoUrl: string;
     location: string;
+    appointment: Appointment;
 }
 
 export interface MealSchedule {
@@ -32,4 +33,14 @@ export interface ResidentMovement {
     object: string;
     angle: number;
     notes?: string;
+}
+
+export interface Appointment {
+    id: number;
+    residentId: number;
+    residentName: string;
+    staffName: string;
+    dateTime: string;
+    type: string;
+    notes: string;
 }

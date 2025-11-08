@@ -1,5 +1,456 @@
 #root {
-    position:relative;
-    top: 0px;
-    left: 0px;
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+p {
+    color: black
+}
+
+.BodyContainer {
+    display: flex;
+    padding-top: 54px;
+    background-color: white;
+}
+
+.Container {
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.Header {
+    position: absolute;
+    top: 0;
+    display: inline-flex;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+}
+
+.Logo {
+    height: 33px;
+}
+
+.CuraLink {
+    color: #0A7275;
+    height: 30px;
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+.SearchbarDiv {
+    width: 40%;
+    display: flex;
+}
+
+.Searchbar {
+    border: 2px;
+    padding: 5px;
+    padding-left: 15px;
+    width: 100%;
+    border-color: black;
+    color: black;
+}
+
+.ReportButton {
+    position: absolute;
+    right: 10px;
+    background-color: #fff;
+    border-width: 1px;
+    color: #0A7275;
+    border-radius: 5px;
+    border-color: #aaaaaa;
+}
+
+    .ReportButton:hover {
+        background-color: #0A7275;
+        color: white;
+        border-color: #0A7275;
+    }
+
+.StaffHeader {
+    display: flex;
+    position: absolute;
+    right: 10px;
+}
+
+.StaffFoto {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.StaffName {
+    color: black;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.LinkList {
+    display: block;
+    width: 300px;
+}
+
+.message {
+    color: black;
+    text-align: center;
+}
+
+.SidebarLink {
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+    width: 140px;
+    text-align: center;
+    align-items: center;
+    display: block;
+}
+
+    .SidebarLink:hover {
+        color: #fff;
+        background-color: #0A7275;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 180px;
+        display: block;
+        text-decoration: none;
+    }
+
+    .SidebarLink:visited:hover {
+        color: #fff;
+        background-color: #0A7275;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 180px;
+        display: block;
+        text-decoration: none;
+    }
+
+    .SidebarLink:visited {
+        color: #000;
+        text-decoration: none;
+        padding: 5px;
+        width: 140px;
+        text-align: center;
+        align-items: center;
+        display: block;
+    }
+
+
+.StaffWrap {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ResOverview {
+    background-color: #0A7275;
+    color: white;
+    margin-right: 30px;
+}
+
+.Wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.BtnWrapper {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    align-content: center;
+}
+
+.CentrWrap {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.FlexWrap {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.VoiceBtn {
+    background-color: #0A7275;
+    color: white;
+    margin-right: 40px;
+    margin-left: 15px;
+    height: 100px;
+    width: 200px;
+    border: none;
+}
+
+    .VoiceBtn:hover {
+        background-color: #0A7275;
+        color: white;
+        margin-right: 40px;
+        margin-left: 15px;
+        height: 100px;
+        width: 200px;
+        border: none;
+    }
+
+.TextBtn {
+    background-color: white;
+    color: #0A7275;
+    border-color: #0A7275;
+    border-width: 1px;
+    height: 100px;
+    width: 200px;
+}
+
+    .TextBtn:hover {
+        background-color: white;
+        color: #0A7275;
+        border-color: #0A7275;
+        border-width: 1px;
+        height: 100px;
+        width: 200px;
+    }
+
+.Wrapper h2 {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 14px;
+    border-top-width: 1px;
+    border-top-color: grey;
+    padding-top: 5px;
+}
+
+.toDo {
+    color: black;
+}
+
+.Wrapper li {
+    color: black;
+}
+
+.Slogan {
+    color: #0A7275;
+    text-align: center;
+    margin-top: 5px;
+    border-top-width: 1px;
+    border-top-color: grey;
+    padding-top: 5px;
+}
+
+.Tagesplan {
+    display: block;
+    position: relative;
+    margin: 10px;
+    padding: 5px;
+    right: 0;
+    border-left-width: 1px;
+    border-left-color: grey;
+}
+
+    .Tagesplan h3 {
+        color: black;
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 14px;
+        margin-bottom: 10px;
+        padding-top: 5px;
+    }
+
+.PopupWrap {
+    position: absolute;
+    width: 100%;
+    height: 106%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+    top: -54px;
+    background-color: rgb(128, 128, 128, 0.5);
+    overflow: hidden;
+}
+
+.PopupDiv {
+    position: center;
+    width: 300px;
+    background-color: white;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 20px;
+    padding: 12px;
+    align-content: center;
+    justify-self: center;
+}
+
+.PopupBtnWrap {
+    display: flex;
+}
+
+.PopupDiv button {
+    width: 125px;
+    height: 45px;
+    margin: 5px;
+}
+
+    .PopupDiv button:hover {
+        width: 125px;
+        height: 45px;
+        margin: 5px;
+    }
+
+textarea {
+    width: 250px;
+    color: black;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    overflow: hidden;
+    resize: none;
+    height: auto;
+    min-height: 10px;
+    max-height: 400px;
+}
+
+    textarea:focus {
+        height: auto;
+        resize: none;
+        overflow: hidden;
+    }
+
+
+.ResHeaderWrap {
+    display: flex;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    margin-right: 200px;
+    border-bottom-width: 2px;
+    border-bottom-color: #0A7275;
+    color: black;
+}
+
+.ResImg {
+    height: 80px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+
+.ResOverviewWrap {
+    margin-right: 200px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+    .ResOverviewWrap h3 {
+        font-size: 20px;
+        margin-top: 10px;
+        font-weight: 600;
+    }
+
+    .ResOverviewWrap div {
+        padding-bottom: 8px;
+        padding-left: 15px;
+        border-right-width: 1px;
+        border-right-color: #0A7275;
+        width: 33%;
+    }
+
+    .ResOverviewWrap li {
+        margin-top: 5px;
+    }
+
+.LastActivities {
+    border-right: none;
+}
+
+.AusscheidungPageWrap {
+    padding-right: 200px;
+    width: 100%;
+}
+
+.AusscheidungTitel {
+    color: black;
+    margin-bottom: 15px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.AusscheidungWrap {
+    display: flex;
+    text-align: left;
+    width: 100%;
+    justify-content: center;
+    border-top-width: 1px;
+    border-color: grey;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+    .AusscheidungWrap p {
+        width: 25%;
+    }
+
+.ster {
+    font-weight: 800;
+}
+
+.NutritionPageWrap {
+    color: black;
+    width: 100%;
+    padding-right: 200px;
+}
+
+    .NutritionPageWrap h2 {
+        font-size: 20px;
+        font-weight: 700;
+        margin: 15px;
+    }
+
+.DataWrap {
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: 10px;
+}
+
+.MealWrap {
+    display: block;
+    border: 2px solid #0A7275;
+    border-radius: 20px;
+    width: 67%;
+    margin: 20px;
+}
+
+.BlockTop {
+    padding: 10px;
+    border-bottom: 1px;
+    border-bottom-color: #0A7275;
+    background-color: #0A7275;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+    .BlockTop p {
+        font-size: 18px;
+        color: white;
+    }
+
+.Comments {
+    margin: 10px;
+    padding: 2px;
 }

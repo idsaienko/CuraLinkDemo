@@ -5,21 +5,19 @@ export default function ResidentHeader() {
     const { residentId } = useParams<{ residentId: string }>();
     const { resident, loading } = useResident(residentId);
 
-    if (loading) return <p>Lädt...</p>;
-    if (!resident) return <p>Kein Bewohner gefunden</p>;
+    if (loading) return <p className = "message">Lädt...</p>;
+    if (!resident) return <p className = "message">Kein Bewohner gefunden</p>;
 
     return (
-        <div className="flex items-center gap-4 mb-4">
+        <div className="ResHeaderWrap">
             <img
-                src={resident.photoUrl || "/placeholder.jpg"}
+                src={resident.photoUrl || "/img/placeholder.png"}
                 alt={resident.fullName}
-                className="w-20 h-20 rounded-full object-cover"
+                className="ResImg"
             />
-            <div style={{
-                color:"black"
-            } }>
-                <h1 className="text-2xl font-bold">{resident.fullName}</h1>
-                <p className="text-gray-600">{resident.roomNumber}</p>
+            <div>
+                <h1>{resident.fullName}</h1>
+                <p>{resident.roomNumber}</p>
             </div>
         </div>
     );

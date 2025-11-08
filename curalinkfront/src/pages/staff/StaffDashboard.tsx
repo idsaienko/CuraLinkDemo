@@ -1,6 +1,7 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-import { useState, useRef } from "react";
+﻿/* eslint-disable @typescript-eslint/no-explicit-any */
 import api from "@/api/axiosConfig";
+import { useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 interface ReportRequest {
     residentId: number;
@@ -9,9 +10,10 @@ interface ReportRequest {
 }
 
 export default function StaffDashboard() {
+    const navigate = useNavigate();
     const [showTextModal, setShowTextModal] = useState(false);
     const [reportText, setReportText] = useState("");
-    const [residentId, setResidentId] = useState<number>(1); // You should get this from somewhere
+    const [residentId] = useState<number>(1);
     const [loading, setLoading] = useState(false);
     const [isRecording, setIsRecording] = useState(false);
     const mediaRecorderRef = useRef<MediaRecorder | null>(null);
@@ -39,12 +41,16 @@ export default function StaffDashboard() {
 
             setShowTextModal(false);
             setReportText("");
-        } catch (error:any) {
+        } catch (error: any) {
             console.error("Error processing report:", error);
             alert(`Fehler: ${error.response?.data || error.message}`);
         } finally {
             setLoading(false);
         }
+    };
+
+    const goToResident = () => {
+        navigate(`/resident/${residentId}/overview`);
     };
 
     const startRecording = async () => {
@@ -62,7 +68,7 @@ export default function StaffDashboard() {
             const formData = new FormData();
             formData.append("file", blob, "voice_note.webm");
 
-            setLoading(true); 
+            setLoading(true);
 
             try {
                 const transcriptionResponse = await api.post("/api/reports/voice", formData, {
@@ -108,83 +114,76 @@ export default function StaffDashboard() {
     };
 
     return (
-        <div className="flex flex-1" style={{ display: "inline-flex" }}>
-            <div className="flex-1 p-6 space-y-6">
+        <div className="StaffWrap">
+            <div className="Wrapper">
                 <div className="flex gap-4 items-center">
-                    <label className="text-sm font-medium" style={{ color: "black" }}>
-                        Bewohner ID:
-                        <input
-                            type="number"
-                            value={residentId}
-                            onChange={(e) => setResidentId(Number(e.target.value))}
-                            className="ml-2 px-2 py-1 border rounded"
-                            style={{ color: "black" }}
-                        />
-                    </label>
-                </div>
-
-                <div className="flex gap-4">
-                    {!isRecording ? (
-                        <button
-                            className="bg-green-500 text-white px-4 py-2 rounded-lg"
-                            onClick={startRecording}
-                            style={{ backgroundColor: "#008E56" }}
-                        >
-                            Voice Note
-                        </button>
-                    ) : (
-                        <button
-                            className="bg-red-500 text-white px-4 py-2 rounded-lg"
-                            style={{ backgroundColor: "#008E56" }}
-                            onClick={stopRecording}
-                        >
-                            Stop Recording
-                        </button>
-                    )}
                     <button
-                        onClick={() => setShowTextModal(true)}
-                        className="bg-white border px-4 py-2 rounded-lg hover:bg-gray-100"
+                        onClick={goToResident}
+                        className="ResOverview"
                         style={{
-                            color: "#008E56",
-                            backgroundColor: "#ffffff",
-                            border: "1px solid #EDEDED"
                         }}
                     >
-                        Text Note
+                        Zu Bewohner Uebersicht →
                     </button>
                 </div>
 
-                <section>
-                    <h2 className="text-lg font-semibold mb-2" style={{ color: "black" }}>
-                        Offene Aufgaben
-                    </h2>
-                    <p className="text-gray-600" style={{ color: "black" }}>
-                        Keine offene Aufgabe
+                <div className="BtnWrapper">
+                    <div className="CentrWrap">
+                        <div className="FlexWrap">
+                            {!isRecording ? (
+                                <button
+                                    className="VoiceBtn"
+                                    onClick={startRecording}
+                                >
+                                    Voice Note
+                                </button>
+                            ) : (
+                                <button
+                                    className="VoiceBtn"
+                                    style={{ backgroundColor: "#008E56" }}
+                                    onClick={stopRecording}
+                                >
+                                    Stop Recording
+                                </button>
+                            )}
+                            <button
+                                onClick={() => setShowTextModal(true)}
+                                className="border px-4 py-2 rounded-lg hover:bg-gray-100 TextBtn"
+                            >
+                                Text Note
+                            </button>
+                        </div>
+                    </div>
+
+                    <section>
+                        <h2>
+                            Offene Aufgaben
+                        </h2>
+                        <p className="toDo" >
+                            Keine offene Aufgabe
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>
+                            Letzte Aktivitaeten
+                        </h2>
+                        <ul>
+                            <li>Neuer Bericht erstellt (ID #123)</li>
+                        </ul>
+                    </section>
+
+                    <p className="Slogan">
+                        Care that connects.
                     </p>
-                </section>
-
-                <section>
-                    <h2 className="text-lg font-semibold mb-2" style={{ color: "black" }}>
-                        Letzte Aktivitaeten
-                    </h2>
-                    <ul className="text-gray-700 text-sm space-y-1" style={{ color: "black" }}>
-                        <li style={{ color: "black" }}>Neuer Bericht erstellt (ID #123)</li>
-                    </ul>
-                </section>
-
-                <p
-                    className="text-green-600 font-bold text-center text-xl mt-10"
-                    style={{ color: "#008E56" }}
-                >
-                    Care that connects.
-                </p>
+                </div>
             </div>
 
-            <aside className="w-72 bg-white shadow rounded-xl p-4">
-                <h3 className="font-semibold mb-4" style={{ color: "black" }}>
+            <aside className=" Tagesplan">
+                <h3>
                     Tagesplan
                 </h3>
-                <ul className="space-y-3">
+                <ul>
                     <li>
                         <p className="font-medium" style={{ color: "black" }}>
                             Max Mustermann
@@ -193,56 +192,39 @@ export default function StaffDashboard() {
                             Zimmer 12A - Fruehstueck 08:00
                         </p>
                     </li>
-                    <li>
-                        <p className="font-medium" style={{ color: "black" }}>
-                            Anna Schmidt
-                        </p>
-                        <p className="text-sm text-gray-600" style={{ color: "black" }}>
-                            Zimmer 7B - Medikament 10:00
-                        </p>
-                    </li>
                 </ul>
             </aside>
 
             {showTextModal && (
-                <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50">
-                    <div className="bg-white p-6 rounded-xl w-96">
+                <div className="PopupWrap">
+                    <div className="bg-white p-6 rounded-xl w-96 PopupDiv" >
                         <h3 className="text-lg font-semibold mb-4" style={{ color: "black" }}>
                             Text Note eingeben
                         </h3>
                         <textarea
-                            className="w-full border rounded-lg p-2 h-32 mb-4"
                             placeholder="Bericht eingeben..."
                             value={reportText}
-                            onChange={(e) => setReportText(e.target.value)}
-                            style={{
-                                color: "black",
-                                borderColor: "black"
+                            onChange={(e) => {
+                                setReportText(e.target.value);
+                                e.target.style.height = 'auto';
+                                e.target.style.height = `${e.target.scrollHeight}px`
                             }}
                         ></textarea>
-                        <div className="flex justify-end gap-3">
+                        <div className="PopupBtnWrap">
                             <button
                                 onClick={() => {
                                     setShowTextModal(false);
                                     setReportText("");
                                 }}
-                                className="px-4 py-2 border rounded-lg"
+                                className="TextBtn"
                                 disabled={loading}
-                                style={{
-                                    color: "black",
-                                    backgroundColor: "white"
-                                }}
                             >
                                 Abbrechen
                             </button>
                             <button
                                 onClick={handleSubmitReport}
-                                className="px-4 py-2 bg-blue-600 text-white rounded-lg"
+                                className="VoiceBtn"
                                 disabled={loading}
-                                style={{
-                                    backgroundColor: "#008E56",
-                                    color: "white"
-                                }}
                             >
                                 {loading ? "Verarbeite..." : "Senden"}
                             </button>

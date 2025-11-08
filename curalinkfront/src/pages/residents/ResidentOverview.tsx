@@ -10,13 +10,10 @@ export default function ResidentOverview() {
     if (!resident) return <p>Kein Bewohner gefunden</p>;
 
     return (
-        <div className="space-y-6"
-            style={{
-                color:"black"
-            } }>
+        <div>
             <ResidentHeader />
 
-            <div className="grid grid-cols-3 gap-6">
+            <div className="ResOverviewWrap">
                 <div className="bg-white p-4 rounded-xl shadow">
                     <h3 className="font-semibold mb-2">Allgemeine Infos</h3>
                     <ul className="text-sm text-gray-700 space-y-1">
@@ -40,7 +37,7 @@ export default function ResidentOverview() {
                     </ul>
                 </div>
 
-                <div className="bg-white p-4 rounded-xl shadow">
+                <div className="bg-white p-4 rounded-xl shadow LastActivities">
                     <h3 className="font-semibold mb-2">Letzte Aktivitäten</h3>
                     <ul className="text-sm space-y-1">
                         <li>Gestern: Schmerzmittel verabreicht</li>
